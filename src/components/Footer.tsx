@@ -37,19 +37,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-primary">Afspraken</h3>
-            <p className="text-sm text-muted-foreground mb-2">
-              Online afspraken maken via:
-            </p>
-            <a
-              href="https://supersaas.nl"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-primary hover:underline"
-            >
-              supersaas.nl
-            </a>
-            <p className="text-sm text-muted-foreground mt-4">
+            <h3 className="text-lg font-semibold mb-4 text-primary">KvK Nummer</h3>
+            <p className="text-sm text-muted-foreground">
               KvK: 72639377
             </p>
           </div>

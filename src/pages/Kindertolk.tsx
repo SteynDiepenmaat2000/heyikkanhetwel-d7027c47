@@ -2,6 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { MessageCircle, Baby, Eye, ArrowRight } from "lucide-react";
+import kindertolkFoto1 from "@/assets/kindertolk-foto-1.jpg";
+import kindertolkFoto2 from "@/assets/kindertolk-foto-2.jpg";
 
 const Kindertolk = () => {
   return (
@@ -14,14 +16,23 @@ const Kindertolk = () => {
           Voor Ouders/verzorgers, begeleiders en leerkrachten van kinderen
         </p>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary text-center">De Wijsheid Van Jouw Kind</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Je kind kan je spiegelen en heeft er veel voor over om jou als ouder, via signalen, te helpen. Om je op een bepaald vlak weer in je kracht te zetten! Een deel (een blinde vlek) dat altijd al in jou aanwezig is en was. Je kind doet dit gewoon en is zich hiervan meestal niet eens bewust.
-            </p>
-          </CardContent>
-        </Card>
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+          <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20 h-full">
+            <CardContent className="pt-8">
+              <h2 className="text-2xl font-semibold mb-6 text-primary">De Wijsheid Van Jouw Kind</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Je kind kan je spiegelen en heeft er veel voor over om jou als ouder, via signalen, te helpen. Om je op een bepaald vlak weer in je kracht te zetten! Een deel (een blinde vlek) dat altijd al in jou aanwezig is en was. Je kind doet dit gewoon en is zich hiervan meestal niet eens bewust.
+              </p>
+            </CardContent>
+          </Card>
+          <div>
+            <img 
+              src={kindertolkFoto1} 
+              alt="Kindertolk" 
+              className="rounded-lg shadow-[var(--shadow-card)] w-full"
+            />
+          </div>
+        </div>
 
         <h2 className="text-2xl font-semibold mb-6 text-primary">Hoe Kun Je Dat Zien?</h2>
         

@@ -2,6 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Users, Target, Shield, ArrowRight } from "lucide-react";
+import weerbaarheidFoto1 from "@/assets/weerbaarheid-foto-1.jpg";
+import weerbaarheidFoto2 from "@/assets/weerbaarheid-foto-2.jpg";
 
 const Weerbaarheid = () => {
   return (

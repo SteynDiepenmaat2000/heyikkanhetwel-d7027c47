@@ -1,5 +1,6 @@
 import { Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import overMijFoto from "@/assets/over-mij-foto.jpg";
 
 const OverMij = () => {
   return (
@@ -9,12 +10,20 @@ const OverMij = () => {
           Over Mij
         </h1>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50">
-          <CardContent className="pt-8">
-            <div className="flex items-center gap-3 mb-6">
-              <Heart className="h-8 w-8 text-primary" />
-              <h2 className="text-2xl font-semibold text-primary">Help….. IK VOEL ZO VEEL!</h2>
-            </div>
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+          <div>
+            <img 
+              src={overMijFoto} 
+              alt="Patricia Kroeze" 
+              className="rounded-lg shadow-[var(--shadow-card)] w-full"
+            />
+          </div>
+          <Card className="shadow-[var(--shadow-card)] border-border/50 h-full">
+            <CardContent className="pt-8">
+              <div className="flex items-center gap-3 mb-6">
+                <Heart className="h-8 w-8 text-primary" />
+                <h2 className="text-2xl font-semibold text-primary">Help….. IK VOEL ZO VEEL!</h2>
+              </div>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 Ja ik voel ook veel en dat is soms heel erg lastig. Je gaat je aanpassen omdat je anderen zo goed begrijpt. Gelukkig weet ik nu al heel snel als ik iets voel dat dit niet van mij is maar van een ander. Ik weet ook wat ik daarmee kan doen en er soms ook helemaal niks mee hoef te doen.
@@ -26,8 +35,9 @@ const OverMij = () => {
                 Door het boek 'Leven met hooggevoeligheid, van opgave naar gave' van Susan Marletta-Hart, inmiddels 15 jaar geleden, kwam ik erachter dat veel kenmerken van hooggevoelig zijn op mij en vele anderen van toepassing zijn. Sindsdien snap ik nog beter hoe het voor kinderen werkt. Ik voelde me vaak niet gehoord (luisteren) en begrepen als kind. Dat neem ik mijn ouders niet kwalijk en wil daarom andere kinderen en volwassenen graag helpen zodat zij zich wel gehoord en begrepen voelen en de 'blinde vlekken' laten ontdekken.
               </p>
             </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+        </div>
 
         <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-8">

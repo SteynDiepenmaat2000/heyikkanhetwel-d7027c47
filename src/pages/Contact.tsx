@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, Phone, MapPin, Calendar } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -19,7 +19,7 @@ const Contact = () => {
           </CardContent>
         </Card>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-12">
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
           <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
             <CardContent className="pt-8">
               <div className="flex items-start gap-4">
@@ -75,26 +75,6 @@ const Contact = () => {
             </CardContent>
           </Card>
 
-          <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-8">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <Calendar className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2 text-foreground">Online Afspraken</h3>
-                  <a 
-                    href="https://supersaas.nl" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    supersaas.nl
-                  </a>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
         </div>
 
         <Card className="shadow-[var(--shadow-card)] border-border/50">

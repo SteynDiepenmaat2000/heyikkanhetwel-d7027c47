@@ -1,79 +1,117 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Moon, Shield, Sparkles } from "lucide-react";
+import { Heart, Moon, Shield, Sparkles, Home as HomeIcon } from "lucide-react";
+import spiritualFoto from "@/assets/spiritual-foto-1.jpg";
 
 const SpiritueleKindercoach = () => {
   return (
     <main className="min-h-screen pt-24 pb-16 px-4">
-      <div className="container mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
-          Zo Werk Ik
+      <div className="container mx-auto max-w-5xl">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
+          Spiritueel (Kinder)coach
         </h1>
+        <p className="text-center text-lg text-muted-foreground mb-12">
+          Voor Alle Leeftijden
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+          <div>
+            <img 
+              src={spiritualFoto} 
+              alt="Spiritueel Kindercoach" 
+              className="rounded-lg shadow-[var(--shadow-card)] w-full"
+            />
+          </div>
+          <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20 h-full">
+            <CardContent className="pt-8">
+              <h2 className="text-2xl font-semibold mb-6 text-primary">Paranormaal Begaafd of Paranormaliteit</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Mijn ervaring met kinderen die paranormaal zijn of intuïtieve vermogens hebben is dat het voor hen normaal is. Belangrijk is dat je je daar als ouder of opvoeder bewust van bent. Het ene kind, vaak intuïtieve kind, vindt het wel lastig om ermee om te gaan omdat ze niet precies weten wat ze ermee moeten. Als een kind het wil gaan we in een veilige setting samen contact maken zodat ze leren hoe ze dat kunnen doen.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Een paranormaal heeft er vaak geen last van om de spirit(s) te zien en ermee te communiceren. Het hoort bij hun leven, maar het is wel fijn als ze zelf kunnen bepalen wat ze ermee doen en op welk moment. Dat is wat ik hun kan leren. Het geeft rust bij het kind en binnen het gezin. Het kind leeft daardoor &quot;makkelijker&quot; of &quot;meer&quot; in het aardse leven.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+
+        <h2 className="text-3xl font-bold mb-8 text-center text-primary">
+          Huiszuivering
+        </h2>
 
         <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-8">
-            <p className="text-lg text-muted-foreground leading-relaxed text-center">
-              Mijn doel is kinderen (en volwassenen) te helpen door "echt" te luisteren en in te voelen. Op aards, spiritueel en energetisch niveau. Kinderen vooral te laten voelen en ervaren zodat ze (intuïtief) weten en leren wat wel en niet bij hun past.
+            <h3 className="text-xl font-semibold mb-4 text-primary">Wat houdt huiszuivering in?</h3>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Soms lijkt het alsof er iemand of iets in uw huis aanwezig is terwijl u (of uw kind) het niet kunt zien maar wel voelt (intuïtie). Vanaf mijn eigen huis stem ik af op uw huis en kijk ik wat ik tegenkom ten aanzien van de vraag of probleem die u mij gesteld heeft. De antwoorden die ik krijg zijn belangrijk voor u, uw kind of een van uw gezinsleden. Zo krijgt u inzicht waarom deze situatie of dit probleem zich voordoet.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              U hebt zelf de keus of u hiermee wat gaat doen. Weet dat als u daar niets mee doet, het probleem waarschijnlijk in dezelfde of andere vorm terug gaat komen. Ga van uw eigen mogelijkheden, kunnen en kracht uit!
             </p>
           </CardContent>
         </Card>
 
+        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
+          <CardContent className="pt-8">
+            <h3 className="text-xl font-semibold mb-4 text-primary">Wanneer zet ik huiszuivering in bij kinderen?</h3>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Na een 1ᵉ overleg aan telefoon of in de praktijk met ouder en kind geef ik de mogelijkheid om eerst af te stemmen op hun huis om te kijken wat ik tegenkom aan spirits en boodschappen. Na de huiszuivering zal uw kind of u merken dat de energie veranderd is. Enkele opmerkingen van kinderen en ouders die dit ervaren hebben:
+            </p>
+            <ul className="space-y-2 text-muted-foreground">
+              <li className="flex items-start gap-3">
+                <span className="text-primary">*</span>
+                <span>mijn dochter huilde van geluk toen ze zelf ging voelen dat die man niet meer in haar kamer was en de kamer zoveel lichter voelde</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary">*</span>
+                <span>ik heb mijn zoon niet meer over die man gehoord</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary">*</span>
+                <span>mijn zoon is nu vrij rustig en niet meer verdrietig</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary">*</span>
+                <span>het heeft mijn dochter veel rust gegeven</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary">*</span>
+                <span>ik als ouder heb ook bijzonder veel aan onze gesprekken gehad, na afstemming van Patricia op ons huis, en dat voelde erg fijn</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary">*</span>
+                <span>we maken gauw nog weer een afspraak, want daar heeft mijn dochter echt profijt van</span>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
         <h2 className="text-3xl font-bold mb-8 text-center text-primary">
-          Wat Kan Ik Betekenen Voor Jou, Je Kind of Je Gezin?
+          Healing & Reading
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6 mb-12">
-          <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Heart className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground">Terug In Je Kracht</h3>
-              </div>
-              <p className="text-muted-foreground">
-                Als je kind niet zichzelf is, weer in zijn/haar KRACHT zetten. Dat kan zich uiten in onzekerheid, weinig zelfbeheersing (boosheid, thuis afreageren, slaan, ergens tegenaan schoppen), faalangst, bang om het fout te doen.
+          <Card className="shadow-[var(--shadow-card)] border-border/50">
+            <CardContent className="pt-8">
+              <h3 className="text-xl font-semibold mb-4 text-primary">Healing</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Tijdens een behandeling wordt jouw energetische lichaam opgeschoond. Dit gebeurt met energie. Ik fungeer als doorgever om de goede energie daar zijn werk te laten doen waar het nodig is. Met als eindresultaat dat je in zijn geheel genomen meer ontspannen, (innerlijke) rust ervaart, de pijn verminderd of weggenomen wordt en je daardoor meer in balans bent.
+              </p>
+              <h4 className="font-semibold text-foreground mb-2">Healing bij kinderen</h4>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Binnen mijn kindercoachsessies komt het af en toe voor dat ik een healing met mijn handen geef. Dit ontstaat en weet ik dus niet van tevoren. Natuurlijk zal ik dit eerst overleggen, voordat ik een energetische behandeling geef.
+              </p>
+              <h4 className="font-semibold text-foreground mb-2">Healing bij volwassenen</h4>
+              <p className="text-muted-foreground leading-relaxed">
+                Volwassenen kan ik helpen bij klachten als onrust of spanning in het lichaam, wat de oorzaak daar ook van is. Ook bij lichamelijke pijnklachten kan er middels healing een vermindering van pijn plaatsvinden.
               </p>
             </CardContent>
           </Card>
 
-          <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Moon className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground">Prettig Slapen</h3>
-              </div>
-              <p className="text-muted-foreground">
-                Als je kind niet goed kan slapen, buikpijn heeft en/of evt. dingen/mensen ziet in zijn/haar slaapkamer → zich weer prettig laten voelen zonder "buik"pijn en in slaap vallen in je eigen bed. Het bed moet een veilig plek zijn en rust geven.
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Shield className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground">Bescherming & Rust</h3>
-              </div>
-              <p className="text-muted-foreground">
-                Als je kind, jij of iemand van je gezin last heeft van een minder fijn gevoel of energie die nog in een ruimte hangt of bepaalde personen waar hij/zij regelmatig mee te maken heeft → daar kan ik contact mee maken en zorgen dat dit verdwijnt of leer je om jezelf te beschermen. Dit geeft rust en voelt fijn.
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Sparkles className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground">Healing & Reading</h3>
-              </div>
-              <p className="text-muted-foreground">
-                Je kind of jij een lichamelijke klacht, spanning/onrust heeft die maar niet over lijkt te gaan. → pijn of spanning/onrust vermindert of verdwijnt na healing en/of reading of via spiegelinzicht middels de methode Kindertolk.
+          <Card className="shadow-[var(--shadow-card)] border-border/50">
+            <CardContent className="pt-8">
+              <h3 className="text-xl font-semibold mb-4 text-primary">Reading</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Readen is een manier van bewust &quot;intuïtief&quot; waarnemen van informatie die zich bevindt in je energiesysteem. Een reading geeft een beeld van wat er op dit moment in essentie in je leven afspeelt en waarom. Ik ga samen met u afstemmen op &apos;het probleem&apos; wat u op dit moment bezighoudt. Dit kan een fysiek klacht zijn of een gevoel dat steeds terugkomt of iets waar u zich zorgen om maakt en waar u graag een antwoord op wil.
               </p>
             </CardContent>
           </Card>
@@ -81,10 +119,17 @@ const SpiritueleKindercoach = () => {
 
         <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary">Op Welke Manier Pak Ik Dat Aan?</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Met mijn zuivere intentie weet ik, wat wel en niet te benoemen bij een kind. Dit gaat vanzelf. Kinderen voelen zich vaak erg snel op mijn gemak als ze eenmaal bij me zijn. En ik denk dat dit komt omdat het kind ZICHZELF mag zijn bij mij. Er is geen goed of fout. Het gaat erom dat we samen ontdekken waar uw kind zich fijn bij voelt en zodoende weer vanuit haar/zijn eigen mooie KRACHT verder gaat in het leven.
+            <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Paranormaliteit bij kinderen moet je altijd serieus nemen</h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Wuif het niet weg, dat kan schade berokkenen bij het kind. Er is niet veel aan de hand met een paranormaal kind. Ga er mee om als een gegeven, dat is het voor het kind ook; hij of zij weet niet beter.
             </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Kinderen die echt paranormaal zijn hebben er geen last van in de zin van dat ze &apos;s nachts niet kunnen slapen en het uitschreeuwen van ellende. Die vinden het eerder vermoeiend, omdat ze de hele dag door extra waarnemen en energie oppikken en dus constant bezig zijn met hun omgeving.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Nog een tip tot slot: als je kind iets concreets zegt, hoeft het niet gelijk paranormaliteit te zijn. Het kan ook toeval zijn of een instinct; een waarschuwing.
+            </p>
+            <p className="text-right text-muted-foreground italic">-Liesbeth van Dijk-</p>
           </CardContent>
         </Card>
       </div>
