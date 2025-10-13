@@ -13,6 +13,7 @@ const Navigation = () => {
     { name: "Spiritueel Kindercoach", path: "/spiritueel-kindercoach" },
     { name: "Kindertolk", path: "/kindertolk" },
     { name: "Weerbaarheid", path: "/weerbaarheid" },
+    { name: "Tarieven", path: "/tarieven" },
     { name: "Contact", path: "/contact" },
   ];
 

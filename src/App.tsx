@@ -11,6 +11,7 @@ import SpiritueleKindercoach from "./pages/SpiritueleKindercoach";
 import Kindertolk from "./pages/Kindertolk";
 import Weerbaarheid from "./pages/Weerbaarheid";
 import Contact from "./pages/Contact";
+import Tarieven from "./pages/Tarieven";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/spiritueel-kindercoach" element={<SpiritueleKindercoach />} />
           <Route path="/kindertolk" element={<Kindertolk />} />
           <Route path="/weerbaarheid" element={<Weerbaarheid />} />
+          <Route path="/tarieven" element={<Tarieven />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
