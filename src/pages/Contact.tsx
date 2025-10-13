@@ -5,9 +5,7 @@ const Contact = () => {
   return (
     <main className="min-h-screen pt-24 pb-16 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
-          Contact
-        </h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">Contact</h1>
 
         <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-8">
@@ -28,8 +26,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-2 text-foreground">Telefoon</h3>
-                  <a 
-                    href="tel:+31651317365" 
+                  <a
+                    href="tel:+31651317365"
                     className="text-muted-foreground hover:text-primary transition-colors text-lg"
                   >
                     +31 (0)6 51317365
@@ -47,8 +45,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-2 text-foreground">Email</h3>
-                  <a 
-                    href="mailto:info@heyikkanhetwel.nl" 
+                  <a
+                    href="mailto:info@heyikkanhetwel.nl"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     info@heyikkanhetwel.nl
@@ -67,32 +65,29 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-2 text-foreground">Adres</h3>
                   <p className="text-muted-foreground">
-                    Kastanjestraat 58<br />
+                    Kastanjestraat 58
+                    <br />
                     7572TC Oldenzaal
                   </p>
                 </div>
               </div>
             </CardContent>
           </Card>
-
         </div>
 
         <Card className="shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-8">
             <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Neem Gerust Contact Op</h2>
             <p className="text-muted-foreground text-center leading-relaxed mb-4">
-              Heb je vragen of wil je meer informatie over mijn werkwijze? Ik sta altijd open voor een kennismakingsgesprek. Je kunt mij bellen, mailen of direct een afspraak online inplannen.
+              Heb je vragen of wil je meer informatie over mijn werkwijze? Ik sta altijd open voor een
+              kennismakingsgesprek. Je kunt mij bellen of mailen.
             </p>
-            <p className="text-center text-sm text-muted-foreground">
-              KvK: 72639377
-            </p>
+            <p className="text-center text-sm text-muted-foreground">KvK: 72639377</p>
           </CardContent>
         </Card>
 
         <div className="mt-12 text-center">
-          <p className="text-lg text-muted-foreground italic">
-            Lieve mensen,
-          </p>
+          <p className="text-lg text-muted-foreground italic">Lieve mensen,</p>
           <p className="text-lg text-muted-foreground mt-4">
             Succes bij jou/jullie proces bij mij of bij iemand anders. Belangrijk is dat het voor jou/jullie goed voelt.
           </p>
