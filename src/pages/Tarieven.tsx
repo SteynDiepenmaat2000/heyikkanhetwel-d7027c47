@@ -7,9 +7,7 @@ const Tarieven = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <section className="max-w-4xl mx-auto text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
-            Tarieven
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Tarieven</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
             Investeer in jezelf of je kind voor een mooiere toekomst
           </p>
@@ -21,9 +19,7 @@ const Tarieven = () => {
             {/* Spiritueel Kindercoach */}
             <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">
-                  Spiritueel (Kinder)coach
-                </CardTitle>
+                <CardTitle className="text-2xl text-primary">Spiritueel (Kinder)coach</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
@@ -50,9 +46,7 @@ const Tarieven = () => {
             {/* Kindertolk */}
             <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">
-                  Kindertolk
-                </CardTitle>
+                <CardTitle className="text-2xl text-primary">Kindertolk</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
@@ -79,9 +73,7 @@ const Tarieven = () => {
             {/* Weerbaarheid */}
             <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">
-                  Weerbaarheid
-                </CardTitle>
+                <CardTitle className="text-2xl text-primary">Weerbaarheid</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
@@ -111,9 +103,7 @@ const Tarieven = () => {
         <section className="max-w-4xl mx-auto mt-16">
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
             <CardContent className="pt-8">
-              <h2 className="text-2xl font-bold mb-4 text-primary">
-                Belangrijke informatie
-              </h2>
+              <h2 className="text-2xl font-bold mb-4 text-primary">Belangrijke informatie</h2>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex gap-2">
                   <Check className="text-primary mt-1 flex-shrink-0" size={20} />
@@ -129,7 +119,7 @@ const Tarieven = () => {
                 </li>
                 <li className="flex gap-2">
                   <Check className="text-primary mt-1 flex-shrink-0" size={20} />
-                  <span>Sessies vinden plaats in Soesterberg of online via videobellen</span>
+                  <span>Sessies vinden plaats bij mij thuis of online via videobellen</span>
                 </li>
               </ul>
             </CardContent>
