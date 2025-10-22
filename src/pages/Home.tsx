@@ -11,39 +11,6 @@ import zoWerkIkFoto from "@/assets/zo-werk-ik-foto.jpg";
 const Home = () => {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
-        </div>
-        
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary">
-              Patricia Kroeze
-            </h1>
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-foreground">
-              Spiritueel (Kinder)coach
-            </h2>
-            <div className="mb-8">
-              <img 
-                src={patriciaFoto} 
-                alt="Patricia Kroeze" 
-                className="rounded-lg shadow-[var(--shadow-card)] max-w-md"
-              />
-            </div>
-            <Link to="/contact">
-              <Button variant="gradient" size="lg" className="text-lg px-8 py-6">
-                Neem Contact Op
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Intro Section */}
       <section className="py-8 px-4 bg-accent/20">
         <div className="container mx-auto max-w-6xl">
