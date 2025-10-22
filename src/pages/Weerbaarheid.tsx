@@ -104,7 +104,7 @@ const Weerbaarheid = () => {
           </Card>
         </div>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
+        <Card className="mb-3 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Wat Ga Je Leren?</h2>
             <div className="space-y-4 text-muted-foreground">
