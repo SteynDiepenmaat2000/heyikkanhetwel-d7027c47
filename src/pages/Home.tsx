@@ -10,7 +10,7 @@ import zoWerkIkFoto from "@/assets/zo-werk-ik-foto.jpg";
 
 const Home = () => {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen pt-16">
       {/* Intro Section */}
       <section className="py-8 px-4 bg-accent/20">
         <div className="container mx-auto max-w-6xl">
