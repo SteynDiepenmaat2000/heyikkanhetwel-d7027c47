@@ -82,7 +82,7 @@ const Contact = () => {
               Heb je vragen of wil je meer informatie over mijn werkwijze? Ik sta altijd open voor een
               kennismakingsgesprek. Je kunt mij bellen of mailen.
             </p>
-            <p className="text-center text-sm text-muted-foreground">KvK: 72639377</p>
+            <p className="text-center text-sm text-muted-foreground"></p>
           </CardContent>
         </Card>
 
