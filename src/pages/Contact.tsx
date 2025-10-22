@@ -3,12 +3,12 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
-    <main className="min-h-screen pt-24 pb-16 px-4">
+    <main className="min-h-screen pt-20 pb-12 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">Contact</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-foreground">Contact</h1>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-          <CardContent className="pt-8">
+        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
+          <CardContent className="pt-6">
             <div className="text-center mb-8">
               <h2 className="text-2xl font-semibold mb-2 text-primary">Patricia Kroeze</h2>
               <p className="text-lg text-muted-foreground">"Heyikkanhetwel"</p>
@@ -17,9 +17,9 @@ const Contact = () => {
           </CardContent>
         </Card>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
+        <div className="grid md:grid-cols-3 gap-4 mb-8">
           <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Phone className="h-6 w-6 text-primary" />
@@ -38,7 +38,7 @@ const Contact = () => {
           </Card>
 
           <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Mail className="h-6 w-6 text-primary" />
@@ -57,7 +57,7 @@ const Contact = () => {
           </Card>
 
           <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <MapPin className="h-6 w-6 text-primary" />
@@ -76,8 +76,8 @@ const Contact = () => {
         </div>
 
         <Card className="shadow-[var(--shadow-card)] border-border/50">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Neem Gerust Contact Op</h2>
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Neem Gerust Contact Op</h2>
             <p className="text-muted-foreground text-center leading-relaxed mb-4">
               Heb je vragen of wil je meer informatie over mijn werkwijze? Ik sta altijd open voor een
               kennismakingsgesprek. Je kunt mij bellen of mailen.
@@ -86,7 +86,7 @@ const Contact = () => {
           </CardContent>
         </Card>
 
-        <div className="mt-12 text-center">
+        <div className="mt-8 text-center">
           <p className="text-lg text-muted-foreground italic">Lieve mensen,</p>
           <p className="text-lg text-muted-foreground mt-4">
             Succes bij jou/jullie proces bij mij of bij iemand anders. Belangrijk is dat het voor jou/jullie goed voelt.

@@ -3,11 +3,11 @@ import { Check } from "lucide-react";
 
 const Tarieven = () => {
   return (
-    <main className="min-h-screen pt-24 pb-16">
+    <main className="min-h-screen pt-20 pb-12">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <section className="max-w-4xl mx-auto text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Tarieven</h1>
+        <section className="max-w-4xl mx-auto text-center mb-10">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-primary">Tarieven</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
             Investeer in jezelf of je kind voor een mooiere toekomst
           </p>
@@ -100,9 +100,9 @@ const Tarieven = () => {
         </section>
 
         {/* Extra Info */}
-        <section className="max-w-4xl mx-auto mt-16">
+        <section className="max-w-4xl mx-auto mt-10">
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <h2 className="text-2xl font-bold mb-4 text-primary">Belangrijke informatie</h2>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex gap-2">

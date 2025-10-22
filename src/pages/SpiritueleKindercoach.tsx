@@ -4,16 +4,16 @@ import spiritualFoto from "@/assets/spiritual-foto-1.jpg";
 
 const SpiritueleKindercoach = () => {
   return (
-    <main className="min-h-screen pt-24 pb-16 px-4">
+    <main className="min-h-screen pt-20 pb-12 px-4">
       <div className="container mx-auto max-w-5xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">
           Spiritueel (Kinder)coach
         </h1>
-        <p className="text-center text-lg text-muted-foreground mb-12">
+        <p className="text-center text-lg text-muted-foreground mb-8">
           Voor Alle Leeftijden
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+        <div className="grid md:grid-cols-2 gap-6 items-center mb-10">
           <div>
             <img 
               src={spiritualFoto} 
@@ -22,8 +22,8 @@ const SpiritueleKindercoach = () => {
             />
           </div>
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20 h-full">
-            <CardContent className="pt-8">
-              <h2 className="text-2xl font-semibold mb-6 text-primary">Paranormaal Begaafd of Paranormaliteit</h2>
+            <CardContent className="pt-6">
+              <h2 className="text-2xl font-semibold mb-4 text-primary">Paranormaal Begaafd of Paranormaliteit</h2>
               <p className="text-muted-foreground leading-relaxed">
                 Mijn ervaring met kinderen die paranormaal zijn of intuïtieve vermogens hebben is dat het voor hen normaal is. Belangrijk is dat je je daar als ouder of opvoeder bewust van bent. Het ene kind, vaak intuïtieve kind, vindt het wel lastig om ermee om te gaan omdat ze niet precies weten wat ze ermee moeten. Als een kind het wil gaan we in een veilige setting samen contact maken zodat ze leren hoe ze dat kunnen doen.
               </p>
@@ -34,12 +34,12 @@ const SpiritueleKindercoach = () => {
           </Card>
         </div>
 
-        <h2 className="text-3xl font-bold mb-8 text-center text-primary">
+        <h2 className="text-3xl font-bold mb-6 text-center text-primary">
           Huiszuivering
         </h2>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50">
-          <CardContent className="pt-8">
+        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+          <CardContent className="pt-6">
             <h3 className="text-xl font-semibold mb-4 text-primary">Wat houdt huiszuivering in?</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Soms lijkt het alsof er iemand of iets in uw huis aanwezig is terwijl u (of uw kind) het niet kunt zien maar wel voelt (intuïtie). Vanaf mijn eigen huis stem ik af op uw huis en kijk ik wat ik tegenkom ten aanzien van de vraag of probleem die u mij gesteld heeft. De antwoorden die ik krijg zijn belangrijk voor u, uw kind of een van uw gezinsleden. Zo krijgt u inzicht waarom deze situatie of dit probleem zich voordoet.
@@ -50,8 +50,8 @@ const SpiritueleKindercoach = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
-          <CardContent className="pt-8">
+        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
+          <CardContent className="pt-6">
             <h3 className="text-xl font-semibold mb-4 text-primary">Wanneer zet ik huiszuivering in bij kinderen?</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Na een 1ᵉ overleg aan telefoon of in de praktijk met ouder en kind geef ik de mogelijkheid om eerst af te stemmen op hun huis om te kijken wat ik tegenkom aan spirits en boodschappen. Na de huiszuivering zal uw kind of u merken dat de energie veranderd is. Enkele opmerkingen van kinderen en ouders die dit ervaren hebben:
@@ -85,13 +85,13 @@ const SpiritueleKindercoach = () => {
           </CardContent>
         </Card>
 
-        <h2 className="text-3xl font-bold mb-8 text-center text-primary">
+        <h2 className="text-3xl font-bold mb-6 text-center text-primary">
           Healing & Reading
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 gap-4 mb-8">
           <Card className="shadow-[var(--shadow-card)] border-border/50">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <h3 className="text-xl font-semibold mb-4 text-primary">Healing</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Tijdens een behandeling wordt jouw energetische lichaam opgeschoond. Dit gebeurt met energie. Ik fungeer als doorgever om de goede energie daar zijn werk te laten doen waar het nodig is. Met als eindresultaat dat je in zijn geheel genomen meer ontspannen, (innerlijke) rust ervaart, de pijn verminderd of weggenomen wordt en je daardoor meer in balans bent.
@@ -108,7 +108,7 @@ const SpiritueleKindercoach = () => {
           </Card>
 
           <Card className="shadow-[var(--shadow-card)] border-border/50">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <h3 className="text-xl font-semibold mb-4 text-primary">Reading</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Readen is een manier van bewust &quot;intuïtief&quot; waarnemen van informatie die zich bevindt in je energiesysteem. Een reading geeft een beeld van wat er op dit moment in essentie in je leven afspeelt en waarom. Ik ga samen met u afstemmen op &apos;het probleem&apos; wat u op dit moment bezighoudt. Dit kan een fysiek klacht zijn of een gevoel dat steeds terugkomt of iets waar u zich zorgen om maakt en waar u graag een antwoord op wil.
@@ -118,8 +118,8 @@ const SpiritueleKindercoach = () => {
         </div>
 
         <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Paranormaliteit bij kinderen moet je altijd serieus nemen</h2>
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Paranormaliteit bij kinderen moet je altijd serieus nemen</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Wuif het niet weg, dat kan schade berokkenen bij het kind. Er is niet veel aan de hand met een paranormaal kind. Ga er mee om als een gegeven, dat is het voor het kind ook; hij of zij weet niet beter.
             </p>

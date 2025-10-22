@@ -7,14 +7,14 @@ import weerbaarheidFoto2 from "@/assets/weerbaarheid-foto-2.jpg";
 
 const Weerbaarheid = () => {
   return (
-    <main className="min-h-screen pt-24 pb-16 px-4">
+    <main className="min-h-screen pt-20 pb-12 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-foreground">
           Kindercoach Weerbaarheid
         </h1>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-          <CardContent className="pt-8">
+        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
+          <CardContent className="pt-6">
             <div className="flex items-center gap-3 mb-6 justify-center">
               <Users className="h-8 w-8 text-primary" />
               <h2 className="text-2xl font-semibold text-primary">Voor</h2>
@@ -32,9 +32,9 @@ const Weerbaarheid = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary">Kindercoach Weerbaarheid</h2>
+        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Kindercoach Weerbaarheid</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Het allerbelangrijkste vind ik dat je het bij mij niet 'goed' of 'fout' kunt doen. Je gaat oefenen en ervaren hoe krachtig, slim en sterk je eigenlijk bent. Met allerlei leuke en speelse oefeningen zet ik jou terug in je (eigen) natuurlijke kracht.
             </p>
@@ -44,9 +44,9 @@ const Weerbaarheid = () => {
           </CardContent>
         </Card>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-8">
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
           <Card className="shadow-[var(--shadow-card)] border-border/50">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <div className="flex items-center gap-3 mb-4">
                 <Shield className="h-8 w-8 text-primary" />
                 <h3 className="text-xl font-semibold text-primary">Signalen</h3>
@@ -73,7 +73,7 @@ const Weerbaarheid = () => {
           </Card>
 
           <Card className="shadow-[var(--shadow-card)] border-border/50">
-            <CardContent className="pt-8">
+            <CardContent className="pt-6">
               <div className="flex items-center gap-3 mb-4">
                 <Target className="h-8 w-8 text-primary" />
                 <h3 className="text-xl font-semibold text-primary">Doel</h3>
@@ -104,9 +104,9 @@ const Weerbaarheid = () => {
           </Card>
         </div>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Wat Ga Je Leren?</h2>
+        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Wat Ga Je Leren?</h2>
             <div className="space-y-4 text-muted-foreground">
               <p className="leading-relaxed">
                 <span className="font-semibold text-foreground">Niet voor jezelf op durven te komen:</span> durven te doen of zeggen wat je eigenlijk wilt, rustiger te leren reageren, hoe je dat kan doen als je bijvoorbeeld heel boos bent etc.
@@ -122,15 +122,15 @@ const Weerbaarheid = () => {
         </Card>
 
         <Card className="shadow-[var(--shadow-card)] border-border/50">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary">Voor Ouders/Verzorgers</h2>
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Voor Ouders/Verzorgers</h2>
             <p className="text-muted-foreground leading-relaxed">
               Als jij je zorgen maakt om het gedrag van jouw kind of als je je ergert aan het gedrag kun je via de methode (Kindertolk/Presentchild) naar je eigen proces kijken.
             </p>
           </CardContent>
         </Card>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-8">
           <p className="text-2xl font-semibold text-primary mb-8">
             HEY……… en OOK JIJ KUNT HET samen met een beetje hulp van mij.
           </p>

@@ -4,13 +4,13 @@ import overMijFoto from "@/assets/over-mij-foto.jpg";
 
 const OverMij = () => {
   return (
-    <main className="min-h-screen pt-24 pb-16 px-4">
+    <main className="min-h-screen pt-20 pb-12 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-foreground">
           Over Mij
         </h1>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+        <div className="grid md:grid-cols-2 gap-6 items-center mb-8">
           <div>
             <img 
               src={overMijFoto} 
@@ -19,8 +19,8 @@ const OverMij = () => {
             />
           </div>
           <Card className="shadow-[var(--shadow-card)] border-border/50 h-full">
-            <CardContent className="pt-8">
-              <div className="flex items-center gap-3 mb-6">
+            <CardContent className="pt-6">
+              <div className="flex items-center gap-3 mb-4">
                 <Heart className="h-8 w-8 text-primary" />
                 <h2 className="text-2xl font-semibold text-primary">Help….. IK VOEL ZO VEEL!</h2>
               </div>
@@ -39,9 +39,9 @@ const OverMij = () => {
           </Card>
         </div>
 
-        <Card className="mb-8 shadow-[var(--shadow-card)] border-border/50">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary">Mijn Achtergrond</h2>
+        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Mijn Achtergrond</h2>
             <p className="text-muted-foreground mb-4">
               Van oorsprong ben ik docente Lichamelijke Opvoeding in het basisonderwijs te Ootmarsum en Motorisch Remedial Teacher maar de afgelopen 15 jaren heb ik me steeds verder ontwikkeld tot:
             </p>
@@ -75,15 +75,15 @@ const OverMij = () => {
         </Card>
 
         <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-          <CardContent className="pt-8">
-            <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Durf Jezelf Te Zijn</h2>
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Durf Jezelf Te Zijn</h2>
             <p className="text-muted-foreground leading-relaxed text-center">
               Luister naar wat jij wilt, niet naar wat je omgeving van je verlangt. En ontdek dat de grootste druk van buitenaf eigenlijk van binnen komt. Het zijn je overtuigingen, ingesleten patronen en vaste denkgewoontes die je het meest behoeden om helemaal jezelf te zijn. Blijf dichtbij jezelf. Merk op wat je voelt, wat je intuïtie je ingeeft. En probeer het meer en meer te volgen. Dat is precies waar ik je op welk vlak dan ook bij kan helpen. En ook ik heb daarbij soms hulp nodig als ik er zelf even niet uit kom.
             </p>
           </CardContent>
         </Card>
 
-        <div className="mt-12 text-center">
+        <div className="mt-8 text-center">
           <p className="text-lg text-muted-foreground italic">
             Lieve mensen,
           </p>
