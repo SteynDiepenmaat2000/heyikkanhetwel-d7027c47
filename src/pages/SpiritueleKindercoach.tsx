@@ -9,11 +9,11 @@ const SpiritueleKindercoach = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">
           Spiritueel (Kinder)coach
         </h1>
-        <p className="text-center text-lg text-muted-foreground mb-8">
+        <p className="text-center text-lg text-muted-foreground mb-6">
           Voor Alle Leeftijden
         </p>
 
-        <div className="grid md:grid-cols-2 gap-6 items-center mb-10">
+        <div className="grid md:grid-cols-2 gap-6 items-center mb-6">
           <div>
             <img 
               src={spiritualFoto} 
@@ -34,11 +34,11 @@ const SpiritueleKindercoach = () => {
           </Card>
         </div>
 
-        <h2 className="text-3xl font-bold mb-6 text-center text-primary">
+        <h2 className="text-3xl font-bold mb-4 text-center text-primary">
           Huiszuivering
         </h2>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-6">
             <h3 className="text-xl font-semibold mb-4 text-primary">Wat houdt huiszuivering in?</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
@@ -50,7 +50,7 @@ const SpiritueleKindercoach = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
           <CardContent className="pt-6">
             <h3 className="text-xl font-semibold mb-4 text-primary">Wanneer zet ik huiszuivering in bij kinderen?</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
@@ -85,11 +85,11 @@ const SpiritueleKindercoach = () => {
           </CardContent>
         </Card>
 
-        <h2 className="text-3xl font-bold mb-6 text-center text-primary">
+        <h2 className="text-3xl font-bold mb-4 text-center text-primary">
           Healing & Reading
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-4 mb-8">
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
           <Card className="shadow-[var(--shadow-card)] border-border/50">
             <CardContent className="pt-6">
               <h3 className="text-xl font-semibold mb-4 text-primary">Healing</h3>

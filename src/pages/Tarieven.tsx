@@ -6,7 +6,7 @@ const Tarieven = () => {
     <main className="min-h-screen pt-20 pb-12">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <section className="max-w-4xl mx-auto text-center mb-10">
+        <section className="max-w-4xl mx-auto text-center mb-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-primary">Tarieven</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
             Investeer in jezelf of je kind voor een mooiere toekomst
@@ -15,7 +15,7 @@ const Tarieven = () => {
 
         {/* Tarieven Cards */}
         <section className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Spiritueel Kindercoach */}
             <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardHeader>
@@ -100,7 +100,7 @@ const Tarieven = () => {
         </section>
 
         {/* Extra Info */}
-        <section className="max-w-4xl mx-auto mt-10">
+        <section className="max-w-4xl mx-auto mt-6">
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
             <CardContent className="pt-6">
               <h2 className="text-2xl font-bold mb-4 text-primary">Belangrijke informatie</h2>

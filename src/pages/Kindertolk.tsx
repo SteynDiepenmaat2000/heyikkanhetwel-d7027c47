@@ -12,11 +12,11 @@ const Kindertolk = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">
           Kindertolk
         </h1>
-        <p className="text-center text-lg text-muted-foreground mb-8">
+        <p className="text-center text-lg text-muted-foreground mb-6">
           Voor Ouders/verzorgers, begeleiders en leerkrachten van kinderen
         </p>
 
-        <div className="grid md:grid-cols-2 gap-6 items-center mb-8">
+        <div className="grid md:grid-cols-2 gap-6 items-center mb-6">
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20 h-full">
             <CardContent className="pt-8">
               <h2 className="text-2xl font-semibold mb-6 text-primary">De Wijsheid Van Jouw Kind</h2>
@@ -34,9 +34,9 @@ const Kindertolk = () => {
           </div>
         </div>
 
-        <h2 className="text-2xl font-semibold mb-4 text-primary">Hoe Kun Je Dat Zien?</h2>
+        <h2 className="text-2xl font-semibold mb-3 text-primary">Hoe Kun Je Dat Zien?</h2>
         
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-6">
             <h3 className="text-lg font-semibold mb-4 text-foreground">Signalen kunnen zijn:</h3>
             <ul className="space-y-2 text-muted-foreground">
@@ -100,7 +100,7 @@ const Kindertolk = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">Wanneer Hulp Kindertolk® Inschakelen?</h2>
             <p className="text-muted-foreground leading-relaxed">
@@ -109,7 +109,7 @@ const Kindertolk = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-gradient-to-br from-accent/30 to-accent/10">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">Presentchild Methode® / Het Fluisterkind®</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
@@ -118,7 +118,7 @@ const Kindertolk = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">Een Kindertolk® Sessie</h2>
             <p className="text-muted-foreground mb-4">Een Kindertolk® sessie bestaat meestal uit 3 afspraken:</p>
@@ -163,7 +163,7 @@ const Kindertolk = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Wie Haalt Het Beste In Jou Naar Boven?</h2>
             <p className="text-muted-foreground leading-relaxed text-center">
@@ -179,7 +179,7 @@ const Kindertolk = () => {
               www.presentchild.nl
             </a>
           </p>
-          <p className="text-muted-foreground mb-8">
+          <p className="text-muted-foreground mb-4">
             Ben je nu toch wel nieuwsgierig geworden wat jouw kind jou te spiegelen heeft? Dan help ik je graag verder om samen te kijken wat er achter het gedrag van je kind "schuilt".
           </p>
           <Button asChild size="lg" variant="gradient">

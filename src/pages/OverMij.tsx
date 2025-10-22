@@ -6,11 +6,11 @@ const OverMij = () => {
   return (
     <main className="min-h-screen pt-20 pb-12 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-foreground">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">
           Over Mij
         </h1>
 
-        <div className="grid md:grid-cols-2 gap-6 items-center mb-8">
+        <div className="grid md:grid-cols-2 gap-6 items-center mb-6">
           <div>
             <img 
               src={overMijFoto} 
@@ -39,7 +39,7 @@ const OverMij = () => {
           </Card>
         </div>
 
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">Mijn Achtergrond</h2>
             <p className="text-muted-foreground mb-4">
@@ -83,7 +83,7 @@ const OverMij = () => {
           </CardContent>
         </Card>
 
-        <div className="mt-8 text-center">
+        <div className="mt-4 text-center">
           <p className="text-lg text-muted-foreground italic">
             Lieve mensen,
           </p>
