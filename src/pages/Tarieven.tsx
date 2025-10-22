@@ -23,7 +23,7 @@ const Tarieven = () => {
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
-                  <p className="text-3xl font-bold text-primary mb-2">€ 75,-</p>
+                  <p className="text-3xl font-bold text-primary mb-2">€ 80,-</p>
                   <p className="text-muted-foreground">per sessie (60-90 min)</p>
                 </div>
                 <ul className="space-y-3">
@@ -77,7 +77,7 @@ const Tarieven = () => {
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
-                  <p className="text-3xl font-bold text-primary mb-2">€ 70,-</p>
+                  <p className="text-3xl font-bold text-primary mb-2">€ 75,-</p>
                   <p className="text-muted-foreground">per sessie (60 min)</p>
                 </div>
                 <ul className="space-y-3">
