@@ -23,7 +23,7 @@ const Home = () => {
               />
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-primary">
                 Ik ben Patricia Kroeze en begeleid:
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground">
@@ -48,7 +48,7 @@ const Home = () => {
       {/* Situaties Section */}
       <section className="py-8 px-4">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-primary">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center text-primary">
             De volgende situaties vallen o.a. hieronder:
           </h2>
           <Card className="shadow-[var(--shadow-card)] border-border/50">
@@ -75,7 +75,7 @@ const Home = () => {
       {/* Voor Ouders Section */}
       <section className="py-8 px-4 bg-accent/20">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-primary">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center text-primary">
             Voor jullie als ouder(s)/verzorger(s):
           </h2>
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-card">
@@ -91,7 +91,7 @@ const Home = () => {
       {/* Mijn Doel Section */}
       <section className="py-8 px-4">
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-primary">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-primary">
             Mijn doel
           </h2>
           <div className="text-center max-w-3xl mx-auto mb-4">
@@ -108,7 +108,7 @@ const Home = () => {
       {/* Zo Werk Ik Section */}
       <section className="py-8 px-4 bg-accent/20">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-primary">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-primary">
             Zo Werk Ik
           </h2>
           <div className="grid md:grid-cols-2 gap-6 items-center mb-6">
@@ -182,7 +182,7 @@ const Home = () => {
       {/* Services Section */}
       <section className="py-8 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-3 text-center text-primary">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3 text-center text-primary">
             Diensten
           </h2>
           <p className="text-xl text-center text-muted-foreground mb-6">
