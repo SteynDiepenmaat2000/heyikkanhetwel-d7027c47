@@ -12,6 +12,7 @@ import Kindertolk from "./pages/Kindertolk";
 import Weerbaarheid from "./pages/Weerbaarheid";
 import Contact from "./pages/Contact";
 import Tarieven from "./pages/Tarieven";
+import Ervaringen from "./pages/Ervaringen";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/kindertolk" element={<Kindertolk />} />
           <Route path="/weerbaarheid" element={<Weerbaarheid />} />
           <Route path="/tarieven" element={<Tarieven />} />
+          <Route path="/ervaringen" element={<Ervaringen />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

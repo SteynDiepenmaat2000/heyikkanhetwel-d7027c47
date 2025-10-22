@@ -14,6 +14,7 @@ const Navigation = () => {
     { name: "Kindertolk", path: "/kindertolk" },
     { name: "Weerbaarheid", path: "/weerbaarheid" },
     { name: "Tarieven", path: "/tarieven" },
+    { name: "Ervaringen", path: "/ervaringen" },
     { name: "Contact", path: "/contact" },
   ];
 
