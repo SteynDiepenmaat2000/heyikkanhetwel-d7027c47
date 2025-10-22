@@ -118,6 +118,15 @@ const Kindertolk = () => {
           </CardContent>
         </Card>
 
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Wie Haalt Het Beste In Jou Naar Boven?</h2>
+            <p className="text-muted-foreground leading-relaxed text-center">
+              Als je zoekt naar iemand die het beste in jou naar boven kan halen, die alle dagen beschikbaar is om jou te begeleiden; die geduldig volhoudt, steeds opnieuw, nauwkeurig en doelgericht werkt...... Zoek dan niet verder want je kind weet er alles van!
+            </p>
+          </CardContent>
+        </Card>
+
         <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">Een Kindertolk® Sessie</h2>
@@ -160,15 +169,6 @@ const Kindertolk = () => {
                 </div>
               </div>
             </div>
-          </CardContent>
-        </Card>
-
-        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-          <CardContent className="pt-6">
-            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Wie Haalt Het Beste In Jou Naar Boven?</h2>
-            <p className="text-muted-foreground leading-relaxed text-center">
-              Als je zoekt naar iemand die het beste in jou naar boven kan halen, die alle dagen beschikbaar is om jou te begeleiden; die geduldig volhoudt, steeds opnieuw, nauwkeurig en doelgericht werkt...... Zoek dan niet verder want je kind weet er alles van!
-            </p>
           </CardContent>
         </Card>
 
