@@ -29,14 +29,14 @@ const OverMij = () => {
                   begrijp en aanvoel. Inmiddels heb ik me zover ontwikkeld dat het aanvoelen, m.n. bij geven van een
                   energetische healing, een gave is geworden!
                 </p>
-                <p>
-                  Door het boek 'Leven met hooggevoeligheid, van opgave naar gave' van Susan Marletta-Hart, inmiddels 15
-                  jaar geleden, kwam ik erachter dat veel kenmerken van hooggevoelig zijn op mij en vele anderen van
-                  toepassing zijn. Sindsdien snap ik nog beter hoe het voor kinderen werkt. Ik voelde me vaak niet
-                  gehoord (luisteren) en begrepen als kind. Dat neem ik mijn ouders niet kwalijk en wil daarom andere
-                  kinderen en volwassenen graag helpen zodat zij zich wel gehoord en begrepen voelen en de 'blinde
-                  vlekken' laten ontdekken.
-                </p>
+              <p>
+                Door het boek 'Leven met hoog gevoeligheid, van opgave naar gave' van Susan Marletta-Hart, inmiddels 25
+                jaar geleden, kwam ik erachter dat veel kenmerken van hoog gevoelig zijn op mij en vele anderen van
+                toepassing zijn. Sindsdien snap ik nog beter hoe het voor kinderen werkt. Ik voelde me vaak niet
+                gehoord (luisteren) en begrepen als kind. Dat neem ik mijn ouders niet kwalijk en wil daarom andere
+                kinderen en volwassenen graag helpen zodat zij zich wel gehoord en begrepen voelen en de 'blinde
+                vlekken' laten ontdekken.
+              </p>
               </div>
             </CardContent>
           </Card>
@@ -46,8 +46,8 @@ const OverMij = () => {
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">Mijn Achtergrond</h2>
             <p className="text-muted-foreground mb-4">
-              Van oorsprong ben ik docente Lichamelijke Opvoeding in het basisonderwijs te Ootmarsum en Motorisch
-              Remedial Teacher maar de afgelopen 15 jaren heb ik me steeds verder ontwikkeld tot:
+              Van oorsprong was ik 33 jaar docente Lichamelijke Opvoeding in het basisonderwijs te Ootmarsum en Motorisch
+              Remedial Teacher maar de afgelopen jaren heb ik me op volgorde van tijd steeds verder ontwikkeld tot:
             </p>
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-3">
@@ -76,7 +76,11 @@ const OverMij = () => {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-primary font-semibold min-w-[24px]">6.</span>
-                <span>Systematisch Kindercoach – Familieopstellingen Kind en Jongeren</span>
+                <span>Familieopstellingen Kind en Jongeren bij Ingrid Dijkstra</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary font-semibold min-w-[24px]">7.</span>
+                <span>Holistisch Kindertherapeut met HSP-specialisatie bij Anne van Ommen</span>
               </li>
             </ul>
           </CardContent>
@@ -95,15 +99,22 @@ const OverMij = () => {
           </CardContent>
         </Card>
 
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Je hart volgen</h2>
+            <p className="text-muted-foreground leading-relaxed">
+              In april 2024 heb ik gedaan wat mijn hart al langer wist. Vaak moet er eerst wat minder fijns gebeuren, voordat je een grote nieuwe stap durft te zetten. Ik ben gestopt als gym juf en ben als gezinsondersteuner gaan werken. Het bemiddelingsbureau waar ik vanuit werk heet "hulp met gevoel". Dat paste precies op mijn weg. Tot nu toe een hele goede keus.
+            </p>
+          </CardContent>
+        </Card>
+
         <div className="mt-4 text-center">
-          <p className="text-lg text-muted-foreground italic">Lieve mensen,</p>
+          <p className="text-lg text-muted-foreground italic">Lieve mens,</p>
           <p className="text-lg text-muted-foreground mt-4">
-            Succes bij jou/jullie proces bij mij of bij iemand anders. Belangrijk is dat het voor jou/jullie goed voelt.
+            Kies op gevoel en met je hart of mijn hulp bij jou/jullie past.
           </p>
           <p className="text-lg text-primary font-semibold mt-6">
-            Hartelijke groet,
-            <br />
-            Patricia
+            groet Patricia
           </p>
         </div>
       </div>

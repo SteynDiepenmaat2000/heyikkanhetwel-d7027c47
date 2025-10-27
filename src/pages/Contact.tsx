@@ -10,9 +10,32 @@ const Contact = () => {
         <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-6">
             <div className="text-center mb-8">
-              <h2 className="text-2xl font-semibold mb-2 text-primary">Patricia Kroeze</h2>
-              <p className="text-lg text-muted-foreground">"Heyikkanhetwel"</p>
-              <p className="text-muted-foreground">Spiritueel Kindercoach</p>
+              <h2 className="text-3xl font-semibold mb-2 text-foreground">Praktijk voor Spiritueel (kinder)coach</h2>
+              <h3 className="text-2xl font-semibold mb-2 text-primary">"Heyikkanhetwel"</h3>
+              <p className="text-xl text-foreground">Patricia Kroeze</p>
+              <p className="text-muted-foreground mt-2">Spiritueel Kindercoach</p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-4 text-center mt-6">
+              <div>
+                <p className="text-muted-foreground mb-1">Telefoon:</p>
+                <a href="tel:+31651317365" className="text-foreground font-semibold hover:text-primary">+31 (0)6 51317365</a>
+              </div>
+              <div>
+                <p className="text-muted-foreground mb-1">Email:</p>
+                <a href="mailto:info@heyikkanhetwel.nl" className="text-foreground font-semibold hover:text-primary">info@heyikkanhetwel.nl</a>
+              </div>
+              <div>
+                <p className="text-muted-foreground mb-1">Website:</p>
+                <a href="https://www.heyikkanhetwel.nl" className="text-foreground font-semibold hover:text-primary">www.heyikkanhetwel.nl</a>
+              </div>
+              <div>
+                <p className="text-muted-foreground mb-1">Adres:</p>
+                <p className="text-foreground font-semibold">Kastanjestraat 58<br/>7572 TC Oldenzaal</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="text-muted-foreground mb-1">KVK-nummer:</p>
+                <p className="text-foreground font-semibold">72639377</p>
+              </div>
             </div>
           </CardContent>
         </Card>

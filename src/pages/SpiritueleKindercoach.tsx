@@ -23,19 +23,19 @@ const SpiritueleKindercoach = () => {
           </div>
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20 h-full">
             <CardContent className="pt-6">
-              <h2 className="text-2xl font-semibold mb-4 text-primary">Paranormaal Begaafd of Paranormaliteit</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-primary">Paranormaal begaafd of paranormaliteit</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Mijn ervaring met kinderen die paranormaal zijn of intuïtieve vermogens hebben is dat het voor hen normaal is. Belangrijk is dat je je daar als ouder of opvoeder bewust van bent. Het ene kind, vaak intuïtieve kind, vindt het wel lastig om ermee om te gaan omdat ze niet precies weten wat ze ermee moeten. Als een kind het wil gaan we in een veilige setting samen contact maken zodat ze leren hoe ze dat kunnen doen.
+                Mijn ervaring met kinderen die paranormaal zijn of intuïtieve vermogens hebben is dat het voor hen "normaal" is. Belangrijk is dat je je daar als ouder of opvoeder bewust van bent. Het ene kind, vaak Intuïtieve kind, vindt het wel lastig om ermee om te gaan omdat ze niet precies weten wat ze ermee moeten. Als een kind het, na uitleg en voorbeelden van mij, zelf wil gaan we in een veilige setting samen contact maken zodat ze leren hoe ze dat kunnen doen.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Een paranormaal heeft er vaak geen last van om de spirit(s) te zien en ermee te communiceren. Het hoort bij hun leven, maar het is wel fijn als ze zelf kunnen bepalen wat ze ermee doen en op welk moment. Dat is wat ik hun kan leren. Het geeft rust bij het kind en binnen het gezin. Het kind leeft daardoor &quot;makkelijker&quot; of &quot;meer&quot; in het aardse leven.
+                Een paranormaal kind heeft er vaak geen last van om de spirit(s) te zien en ermee te communiceren. Het hoort bij hun leven, maar het is wel fijn als ze zelf kunnen bepalen wat ze ermee doen en op welk moment. Dat is wat ik hun kan leren. Het geeft rust bij het kind en binnen het gezin. Het kind leeft daardoor "makkelijker" of "meer" in het aardse leven.
               </p>
             </CardContent>
           </Card>
         </div>
 
         <h2 className="text-3xl font-bold mb-4 text-center text-primary">
-          Huiszuivering
+          Afstemming op uw huis/Huiszuivering
         </h2>
 
         <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50">
@@ -54,7 +54,7 @@ const SpiritueleKindercoach = () => {
           <CardContent className="pt-6">
             <h3 className="text-xl font-semibold mb-4 text-primary">Wanneer zet ik huiszuivering in bij kinderen?</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Na een 1ᵉ overleg aan telefoon of in de praktijk met ouder en kind geef ik de mogelijkheid om eerst af te stemmen op hun huis om te kijken wat ik tegenkom aan spirits en boodschappen. Na de huiszuivering zal uw kind of u merken dat de energie veranderd is. Enkele opmerkingen van kinderen en ouders die dit ervaren hebben:
+              Na het 1ᵉ overleg over 'het probleem' voel en bespreken we samen of we eerst kiezen om af te stemmen op uw huis om te kijken wat ik tegenkom aan spirits en boodschappen. Na de afstemming op uw huis zal uw kind of u merken dat de energie veranderd is. Tijdens een 2ᵉ sessie bespreken we na hoe het gaat en/of er nog meer nodig is. Enkele opmerkingen van kinderen en ouders die dit ervaren hebben:
             </p>
             <ul className="space-y-2 text-muted-foreground">
               <li className="flex items-start gap-3">
@@ -94,15 +94,15 @@ const SpiritueleKindercoach = () => {
             <CardContent className="pt-6">
               <h3 className="text-xl font-semibold mb-4 text-primary">Healing</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Tijdens een behandeling wordt jouw energetische lichaam opgeschoond. Dit gebeurt met energie. Ik fungeer als doorgever om de goede energie daar zijn werk te laten doen waar het nodig is. Met als eindresultaat dat je in zijn geheel genomen meer ontspannen, (innerlijke) rust ervaart, de pijn verminderd of weggenomen wordt en je daardoor meer in balans bent.
+                Tijdens een behandeling wordt jouw energetische lichaam opgeschoond. Dit gebeurt met energie. Ik fungeer als doorgever om de zuivere energie daar zijn werk te laten doen waar het nodig is. Met als eindresultaat dat je in zijn geheel genomen meer ontspannen, (innerlijke) rust ervaart, de pijn verminderd of weggenomen wordt en je daardoor meer in balans bent.
               </p>
               <h4 className="font-semibold text-foreground mb-2">Healing bij kinderen</h4>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Binnen mijn kindercoachsessies komt het af en toe voor dat ik een healing met mijn handen geef. Dit ontstaat en weet ik dus niet van tevoren. Natuurlijk zal ik dit eerst overleggen, voordat ik een energetische behandeling geef.
+                Binnen mijn kindercoachsessies komt het af en toe voor dat ik een healing met mijn handen geef. Dit ontstaat en weet ik dus niet van tevoren. Natuurlijk zal ik dit eerst met u als ouder(s)/verzorger(s) overleggen tijdens de sessie, voordat ik een energetische behandeling geef.
               </p>
               <h4 className="font-semibold text-foreground mb-2">Healing bij volwassenen</h4>
               <p className="text-muted-foreground leading-relaxed">
-                Volwassenen kan ik helpen bij klachten als onrust of spanning in het lichaam, wat de oorzaak daar ook van is. Ook bij lichamelijke pijnklachten kan er middels healing een vermindering van pijn plaatsvinden.
+                Volwassenen kan ik helpen bij klachten als onrust, nare gedachten of spanning in het lichaam, wat de oorzaak daar ook van is. Ook bij lichamelijke pijnklachten kan er middels healing een vermindering van pijn plaatsvinden.
               </p>
             </CardContent>
           </Card>
@@ -119,12 +119,12 @@ const SpiritueleKindercoach = () => {
 
         <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-6">
-            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">Paranormaliteit bij kinderen moet je altijd serieus nemen</h2>
+            <h2 className="text-xl font-semibold mb-4 text-primary text-center">Over paranormaliteit</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Wuif het niet weg, dat kan schade berokkenen bij het kind. Er is niet veel aan de hand met een paranormaal kind. Ga er mee om als een gegeven, dat is het voor het kind ook; hij of zij weet niet beter.
+              Dit zegt Liesbeth van Dijk, paragnost en bekend van tv "Paranormale kinderen' erover: Paranormaliteit is een soort energieveld van liefde en warmte. Paranormaliteit is ook overal en niet alleen in de slaapkamer. Bij paranormaliteit zijn zintuigen wat zwaarder ontwikkeld dan andere mensen. Je kind zegt dan heel concreet dingen die gebeuren.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Kinderen die echt paranormaal zijn hebben er geen last van in de zin van dat ze &apos;s nachts niet kunnen slapen en het uitschreeuwen van ellende. Die vinden het eerder vermoeiend, omdat ze de hele dag door extra waarnemen en energie oppikken en dus constant bezig zijn met hun omgeving.
+              Paranormaliteit bij kinderen moet je altijd serieus nemen. Wuif het niet weg, dat kan schade berokkenen bij het kind. Er is niet veel aan de hand met een paranormaal kind. Ga er mee om als een gegeven, dat is het voor het kind ook; hij of zij weet niet beter. Kinderen die echt paranormaal zijn hebben er geen last van in de zin van dat ze 's nachts niet kunnen slapen en het uitschreeuwen van ellende. Die vinden het eerder vermoeiend, omdat ze de hele dag door extra waarnemen en energie oppikken en dus constant bezig zijn met hun omgeving.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Nog een tip tot slot: als je kind iets concreets zegt, hoeft het niet gelijk paranormaliteit te zijn. Het kan ook toeval zijn of een instinct; een waarschuwing.

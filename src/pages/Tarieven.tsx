@@ -47,17 +47,14 @@ const Tarieven = () => {
             <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">Kindertolk</CardTitle>
+                <p className="text-sm text-muted-foreground">Voor ouders/verzorgers/leerkrachten</p>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
-                  <p className="text-3xl font-bold text-primary mb-2">€ 85,-</p>
-                  <p className="text-muted-foreground">per sessie (90 min)</p>
+                  <p className="text-3xl font-bold text-primary mb-2">€ 80,-</p>
+                  <p className="text-muted-foreground">per uur (sessie 60-90 min.)</p>
                 </div>
                 <ul className="space-y-3">
-                  <li className="flex gap-2">
-                    <Check className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-muted-foreground">Voor ouders/verzorgers</span>
-                  </li>
                   <li className="flex gap-2">
                     <Check className="text-primary mt-1 flex-shrink-0" size={20} />
                     <span className="text-muted-foreground">Spiegelinzichten</span>
@@ -74,26 +71,44 @@ const Tarieven = () => {
             <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">Weerbaarheid</CardTitle>
+                <p className="text-sm text-muted-foreground">Voor kinderen 4-16 jaar</p>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
-                  <p className="text-3xl font-bold text-primary mb-2">€ 75,-</p>
-                  <p className="text-muted-foreground">per sessie (60 min)</p>
+                  <p className="text-3xl font-bold text-primary mb-2">€ 60,-</p>
+                  <p className="text-muted-foreground">per uur (sessie 60 min)</p>
                 </div>
                 <ul className="space-y-3">
-                  <li className="flex gap-2">
-                    <Check className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-muted-foreground">Voor kinderen 4-16 jaar</span>
-                  </li>
                   <li className="flex gap-2">
                     <Check className="text-primary mt-1 flex-shrink-0" size={20} />
                     <span className="text-muted-foreground">Zelfvertrouwen opbouwen</span>
                   </li>
                   <li className="flex gap-2">
                     <Check className="text-primary mt-1 flex-shrink-0" size={20} />
+                    <span className="text-muted-foreground">Gedrag is communicatie</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <Check className="text-primary mt-1 flex-shrink-0" size={20} />
                     <span className="text-muted-foreground">Grenzen stellen</span>
                   </li>
+                  <li className="flex gap-2">
+                    <Check className="text-primary mt-1 flex-shrink-0" size={20} />
+                    <span className="text-muted-foreground">Belang preventief</span>
+                  </li>
                 </ul>
+              </CardContent>
+            </Card>
+
+            {/* Sociale Vaardigheden op school */}
+            <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
+              <CardHeader>
+                <CardTitle className="text-2xl text-primary">Sociale vaardigheden op school</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div>
+                  <p className="text-3xl font-bold text-primary mb-2">€ 75,-</p>
+                  <p className="text-muted-foreground">per uur</p>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -111,7 +126,7 @@ const Tarieven = () => {
                 </li>
                 <li className="flex gap-2">
                   <Check className="text-primary mt-1 flex-shrink-0" size={20} />
-                  <span>Betaling kan contant of via pin na afloop van de sessie</span>
+                  <span>Betaling kan via tikkie of contant na afloop van de sessie</span>
                 </li>
                 <li className="flex gap-2">
                   <Check className="text-primary mt-1 flex-shrink-0" size={20} />
@@ -119,7 +134,7 @@ const Tarieven = () => {
                 </li>
                 <li className="flex gap-2">
                   <Check className="text-primary mt-1 flex-shrink-0" size={20} />
-                  <span>Sessies vinden plaats bij mij thuis of online via videobellen</span>
+                  <span>Sessies vinden plaats bij mij thuis in praktijkruimte indien nodig via online videobellen</span>
                 </li>
               </ul>
             </CardContent>
