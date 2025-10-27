@@ -10,6 +10,7 @@ import OverMij from "./pages/OverMij";
 import SpiritueleKindercoach from "./pages/SpiritueleKindercoach";
 import Kindertolk from "./pages/Kindertolk";
 import Weerbaarheid from "./pages/Weerbaarheid";
+import ZoWerkIk from "./pages/ZoWerkIk";
 import Contact from "./pages/Contact";
 import Tarieven from "./pages/Tarieven";
 import Ervaringen from "./pages/Ervaringen";
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/spiritueel-kindercoach" element={<SpiritueleKindercoach />} />
           <Route path="/kindertolk" element={<Kindertolk />} />
           <Route path="/weerbaarheid" element={<Weerbaarheid />} />
+          <Route path="/zo-werk-ik" element={<ZoWerkIk />} />
           <Route path="/tarieven" element={<Tarieven />} />
           <Route path="/ervaringen" element={<Ervaringen />} />
           <Route path="/contact" element={<Contact />} />

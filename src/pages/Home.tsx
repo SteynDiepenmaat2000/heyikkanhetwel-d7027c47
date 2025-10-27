@@ -16,21 +16,6 @@ const Home = () => {
 
   return (
     <main className="min-h-screen pt-16">
-      {/* Hero Section */}
-      <section className="relative py-12 px-4 bg-gradient-to-b from-accent/30 to-background">
-        <div className="container mx-auto max-w-6xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Patricia Kroeze
-          </h1>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
-            Spiritueel (Kinder)coach
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Het toepassen van mijn invoelende gave op kinderen en volwassenen zorgt voor het openen van nieuwe deuren naar je ware zelf!
-          </p>
-        </div>
-      </section>
-
       {/* Intro Section */}
       <section className="py-8 px-4 bg-accent/20">
         <div className="container mx-auto max-w-6xl">

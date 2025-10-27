@@ -108,6 +108,18 @@ const OverMij = () => {
           </CardContent>
         </Card>
 
+        {/* Krantenartikel Placeholder */}
+        <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
+          <CardContent className="pt-6">
+            <h2 className="text-2xl font-semibold mb-4 text-primary text-center">In de media</h2>
+            <div className="flex items-center justify-center min-h-[300px] border-2 border-dashed border-border rounded-lg">
+              <p className="text-muted-foreground text-center">
+                [Krantenartikel foto komt hier]
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+
         <div className="mt-4 text-center">
           <p className="text-lg text-muted-foreground italic">Lieve mens,</p>
           <p className="text-lg text-muted-foreground mt-4">
