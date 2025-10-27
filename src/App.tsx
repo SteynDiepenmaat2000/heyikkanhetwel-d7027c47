@@ -6,11 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import ZoWerkIk from "./pages/ZoWerkIk";
 import OverMij from "./pages/OverMij";
 import SpiritueleKindercoach from "./pages/SpiritueleKindercoach";
 import Kindertolk from "./pages/Kindertolk";
 import Weerbaarheid from "./pages/Weerbaarheid";
-import ZoWerkIk from "./pages/ZoWerkIk";
+import UitlegAanKinderen from "./pages/UitlegAanKinderen";
 import Contact from "./pages/Contact";
 import Tarieven from "./pages/Tarieven";
 import Ervaringen from "./pages/Ervaringen";
@@ -27,11 +28,12 @@ const App = () => (
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/zo-werk-ik" element={<ZoWerkIk />} />
           <Route path="/over-mij" element={<OverMij />} />
           <Route path="/spiritueel-kindercoach" element={<SpiritueleKindercoach />} />
           <Route path="/kindertolk" element={<Kindertolk />} />
           <Route path="/weerbaarheid" element={<Weerbaarheid />} />
-          <Route path="/zo-werk-ik" element={<ZoWerkIk />} />
+          <Route path="/uitleg-aan-kinderen" element={<UitlegAanKinderen />} />
           <Route path="/tarieven" element={<Tarieven />} />
           <Route path="/ervaringen" element={<Ervaringen />} />
           <Route path="/contact" element={<Contact />} />
