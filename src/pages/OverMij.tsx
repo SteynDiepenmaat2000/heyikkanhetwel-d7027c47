@@ -1,6 +1,7 @@
 import { Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import overMijFoto from "@/assets/over-mij-foto.jpg";
+import krantenartikel from "@/assets/krantenartikel.jpg";
 
 const OverMij = () => {
   return (
@@ -108,15 +109,15 @@ const OverMij = () => {
           </CardContent>
         </Card>
 
-        {/* Krantenartikel Placeholder */}
+        {/* Krantenartikel */}
         <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">In de media</h2>
-            <div className="flex items-center justify-center min-h-[300px] border-2 border-dashed border-border rounded-lg">
-              <p className="text-muted-foreground text-center">
-                [Krantenartikel foto komt hier]
-              </p>
-            </div>
+            <img 
+              src={krantenartikel} 
+              alt="Krantenartikel over Patricia Kroeze - Zetje in de rug voor kinderen" 
+              className="rounded-lg shadow-[var(--shadow-card)] w-full"
+            />
           </CardContent>
         </Card>
 
