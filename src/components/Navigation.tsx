@@ -30,35 +30,20 @@ const Navigation = () => {
             Heyikkanhetwel
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-6">
-            {navItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(item.path) ? "text-primary" : "text-foreground/80"
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
-
-          {/* Mobile & Tablet Menu Button */}
+          {/* Hamburger Menu Button with "Menu" label - always visible */}
           <Button
             variant="ghost"
-            size="icon"
-            className="lg:hidden"
+            className="flex items-center gap-2"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            <span className="text-sm font-medium">Menu</span>
           </Button>
         </div>
 
-        {/* Mobile & Tablet Navigation */}
+        {/* Navigation Menu */}
         {isOpen && (
-          <div className="lg:hidden py-4 border-t border-border">
+          <div className="py-4 border-t border-border">
             {navItems.map((item) => (
               <Link
                 key={item.path}
