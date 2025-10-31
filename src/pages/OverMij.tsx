@@ -1,9 +1,13 @@
-import { Heart } from "lucide-react";
+import { Heart, X } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
+import { useState } from "react";
 import overMijFoto from "@/assets/over-mij-foto.jpg";
 import krantenartikel from "@/assets/krantenartikel.jpg";
 
 const OverMij = () => {
+  const [isKrantenArtikelOpen, setIsKrantenArtikelOpen] = useState(false);
+
   return (
     <main className="min-h-screen pt-20 pb-12 px-4">
       <div className="container mx-auto max-w-4xl">
@@ -113,13 +117,33 @@ const OverMij = () => {
         <Card className="mb-4 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold mb-4 text-primary">In de media</h2>
+            <div 
+              className="cursor-pointer transition-transform hover:scale-[1.02]"
+              onClick={() => setIsKrantenArtikelOpen(true)}
+            >
+              <img 
+                src={krantenartikel} 
+                alt="Krantenartikel over Patricia Kroeze - Zetje in de rug voor kinderen" 
+                className="rounded-lg shadow-[var(--shadow-card)] w-full"
+              />
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Krantenartikel Dialog */}
+        <Dialog open={isKrantenArtikelOpen} onOpenChange={setIsKrantenArtikelOpen}>
+          <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 overflow-auto">
+            <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground z-10 bg-background/80 backdrop-blur-sm p-2">
+              <X className="h-6 w-6" />
+              <span className="sr-only">Sluiten</span>
+            </DialogClose>
             <img 
               src={krantenartikel} 
               alt="Krantenartikel over Patricia Kroeze - Zetje in de rug voor kinderen" 
-              className="rounded-lg shadow-[var(--shadow-card)] w-full"
+              className="w-full h-auto"
             />
-          </CardContent>
-        </Card>
+          </DialogContent>
+        </Dialog>
 
         <div className="mt-4 text-center">
           <p className="text-lg text-muted-foreground italic">Lieve mens,</p>
