@@ -7,22 +7,13 @@ const Contact = () => {
       <div className="container mx-auto max-w-4xl">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">Contact</h1>
 
-        <div className="grid md:grid-cols-2 gap-4 mb-4">
-          <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-            <CardContent className="pt-6 text-center">
-              <h3 className="text-xl font-semibold mb-2 text-primary">Patricia Kroeze</h3>
-              <p className="text-muted-foreground mb-1">"Heyikkanhetwel"</p>
-              <p className="text-muted-foreground">Spiritueel Kindercoach</p>
-            </CardContent>
-          </Card>
-
-          <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
-            <CardContent className="pt-6 text-center">
-              <p className="text-muted-foreground mb-1">KVK-nummer:</p>
-              <p className="text-foreground font-semibold">72639377</p>
-            </CardContent>
-          </Card>
-        </div>
+        <Card className="shadow-[var(--shadow-card)] border-border/50 bg-accent/20 mb-4 max-w-md mx-auto">
+          <CardContent className="pt-6 text-center">
+            <h3 className="text-xl font-semibold mb-2 text-primary">Patricia Kroeze</h3>
+            <p className="text-muted-foreground mb-1">"Heyikkanhetwel"</p>
+            <p className="text-muted-foreground">Spiritueel Kindercoach</p>
+          </CardContent>
+        </Card>
 
         <div className="grid md:grid-cols-3 gap-4 mb-4">
           <Card className="shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300">
