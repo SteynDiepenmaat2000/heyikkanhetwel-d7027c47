@@ -45,7 +45,7 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold mb-2 text-foreground">Email</h3>
                   <a
                     href="mailto:info@heyikkanhetwel.nl"
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm break-all"
                   >
                     info@heyikkanhetwel.nl
                   </a>
