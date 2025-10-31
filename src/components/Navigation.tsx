@@ -11,6 +11,7 @@ const Navigation = () => {
     { name: "Home", path: "/" },
     { name: "Zo Werk Ik", path: "/zo-werk-ik" },
     { name: "Over Mij", path: "/over-mij" },
+    { name: "Uitleg aan Kinderen", path: "/uitleg-aan-kinderen" },
     { name: "Spiritueel Kindercoach", path: "/spiritueel-kindercoach" },
     { name: "Kindertolk", path: "/kindertolk" },
     { name: "Weerbaarheid", path: "/weerbaarheid" },
