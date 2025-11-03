@@ -31,7 +31,7 @@ const OverMij = () => {
                 ander. Ik weet ook wat ik daarmee kan doen en er soms ook helemaal niks mee hoef te doen.
               </p>
               <p>
-                Het aanvoelen is een 'natuurlijke gave' van mij. Het grote voordeel is dat ik jou/u daardoor ook snel
+                Het aanvoelen is een 'natuurlijke gave'. Het grote voordeel is dat ik jou/u daardoor ook snel
                 begrijp en aanvoel. Inmiddels heb ik me zover ontwikkeld dat het aanvoelen, m.n. bij geven van een
                 energetische healing, een gave is geworden!
               </p>
@@ -52,7 +52,7 @@ const OverMij = () => {
             <h2 className="text-2xl font-semibold mb-4 text-primary">Mijn Achtergrond</h2>
             <p className="text-muted-foreground mb-4">
               Van oorsprong was ik 33 jaar docente Lichamelijke Opvoeding in het basisonderwijs te Ootmarsum en Motorisch
-              Remedial Teacher maar de afgelopen jaren heb ik me op volgorde van tijd steeds verder ontwikkeld tot:
+              Remedial Teacher. De afgelopen jaren heb ik me op volgorde van tijd steeds verder ontwikkeld tot:
             </p>
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-3">
@@ -146,7 +146,7 @@ const OverMij = () => {
         </Dialog>
 
         <div className="mt-4 text-center">
-          <p className="text-lg text-muted-foreground italic">Lieve mens,</p>
+          <p className="text-lg text-muted-foreground italic">Lief mens,</p>
           <p className="text-lg text-muted-foreground mt-4">
             Kies op gevoel en met je hart of mijn hulp bij jou/jullie past.
           </p>

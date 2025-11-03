@@ -65,7 +65,7 @@ const ZoWerkIk = () => {
               <CardContent className="pt-6">
                 <div className="flex gap-4">
                   <span className="text-2xl font-bold text-primary">5.</span>
-                  <p className="text-lg text-muted-foreground">Als je kind of jij een overleden opa, oma, tante etc. erg mist en/of nog iets tegen hen wilt zeggen of vragen hebt kan ik samen contact met ze maken.</p>
+                  <p className="text-lg text-muted-foreground">Als je kind of jij een overleden opa, oma, tante etc. erg mist en/of nog iets tegen hen wilt zeggen of vragen hebt kan ik samen met jou contact maken.</p>
                 </div>
               </CardContent>
             </Card>
@@ -78,10 +78,10 @@ const ZoWerkIk = () => {
               Op welke manier pak ik dat aan?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Ervaring en vertrouwen op mijn gevoel. Met mijn zuivere intentie weet ik, wat wel en niet te benoemen bij een kind. Dit gaat vanzelf. Kinderen voelen zich vaak erg snel op mijn gemak als ze eenmaal bij me zijn. En ik denk dat dit komt omdat het kind ZICHZELF mag zijn bij mij. Er is geen goed of fout.
+              Ervaring en vertrouwen op mijn gevoel. Met mijn zuivere intentie weet ik, wat wel en niet te benoemen bij een kind. Kinderen voelen zich vaak erg snel op mijn gemak als ze eenmaal bij me zijn. En ik denk dat dit komt omdat het kind ZICHZELF mag zijn bij mij. Er is geen goed of fout.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Het gaat erom dat we samen ontdekken waar uw kind zich fijn bij voelt en zodoende weer vanuit haar/zijn eigen mooie KRACHT verder gaat in het leven.
+              Het gaat erom dat we samen ontdekken waar uw kind zich fijn bij voelt en zodoende weer vanuit haar/zijn eigen mooie KRACHT verder gaat in het leven met de handvatten die het meekrijgt.
             </p>
           </CardContent>
         </Card>
@@ -94,7 +94,7 @@ const ZoWerkIk = () => {
           <Card className="shadow-[var(--shadow-card)] border-border/50">
             <CardContent className="pt-6">
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                Ieder kind is prachtig en uniek en hebben verschillende lagen: fysiek, emotioneel, mentaal en energetisch niveau. Als alle lagen in balans zijn, kan het kind stralen. Net als de lagen van een regenboog.
+                Ieder kind is prachtig en uniek en heeft verschillende lagen: fysiek, emotioneel, mentaal en energetisch niveau. Als alle lagen in balans zijn, kan het kind stralen. Net als de lagen van een regenboog.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 <span className="font-semibold text-foreground">Voorbeeld:</span> als een kind buikpijn heeft (fysieke laag), reageert het misschien verdrietig of boos als het iets gevraagd wordt (emotionele laag). De gedachte "Ik kan het niet" kan spelen t.a.v. schooldruk (piekeren, mentale laag) en het kind ervaart daardoor een verminderde energie (energetische laag). We kijken dus naar de complete regenboog.
@@ -112,7 +112,7 @@ const ZoWerkIk = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="shadow-[var(--shadow-card)] border-border/50">
               <CardContent className="pt-6">
-                <h3 className="text-2xl font-semibold mb-4 text-primary">Met poppetjes bij kinderen</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-primary">M.b.v. poppetjes bij kinderen</h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Poppetjessysteemtherapie is een manier van werken in de systeemtherapie waarbij ik poppetjes gebruik om de 'probleemsituatie' visueel te maken vanuit een veiliger, meer afstandelijk perspectief. Het poppetje voelt voor het kind niet direct verbonden waardoor het kind vrijer praat over zichzelf in die situatie. De methode is nuttig om emoties te doorvoelen en ook jonge kinderen inzicht te geven.
                 </p>
@@ -140,7 +140,7 @@ const ZoWerkIk = () => {
 
             <Card className="shadow-[var(--shadow-card)] border-border/50">
               <CardContent className="pt-6">
-                <h3 className="text-2xl font-semibold mb-4 text-primary">Met matjes bij volwassenen</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-primary">M.b.v. matjes bij volwassenen</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Familieopstellingen gebruik ik als we in een gesprek of healing niet bij de essentie komen en/of als er 'een probleem' speelt in je relatie, gezin of familie. Onbewuste patronen en verstrikkingen binnen een familiesysteem worden zichtbaar in het veld. Verschillende matjes staan voor de personen die jij in wil brengen bij dit probleem. Ik neem de positie in van deze personen en ervaar dan gevoelens en dynamieken die bij deze personen horen, waardoor verborgen verbanden en emoties aan het licht komen. Dit kan leiden tot nieuw inzicht, heling en verandering.
                 </p>

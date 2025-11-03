@@ -31,7 +31,7 @@ const Ervaringen = () => {
     {
       title: "Een bijzondere ervaring…",
       subtitle: "Vrouw 53 jaar",
-      text: "Een reading bij Patricia is voor mij altijd een bijzondere ervaring. Ik geef me volledig over aan het moment en ga er zonder verwachtingen in. Het heeft voor mij ook geen zin om iets te verwachten, et verloopt toch anders dan ik zou kunnen bedenken. Patricia heeft beslist een gave om op energetisch niveau contact te maken en ze kan werken met de informatie die ze daaruit krijgt. Daarnaast is het een heerlijk moment van ontspanning. Het is vanuit die ontspanning dat ik intuïtief de antwoorden vind op de vragen die ik nog niet stelde (Patricia stelt deze) en die me verder op weg helpen.\nAls Patricia met mij aan het werk is geweest ben ik altijd een inzicht rijker, of is er een idee dat spontaan ontstaat. Het is nooit voorspelbaar en juist dat maakt het voor mij zo waardevol. Het bevestigt voor mij dat er op een diepere laag heling mogelijk is, die veel effect kan hebben op mijn dagelijks handelen en mijn persoonlijke relaties."
+      text: "Een reading bij Patricia is voor mij altijd een bijzondere ervaring. Ik geef me volledig over aan het moment en ga er zonder verwachtingen in. Het heeft voor mij ook geen zin om iets te verwachten, het verloopt toch anders dan ik zou kunnen bedenken. Patricia heeft beslist een gave om op energetisch niveau contact te maken en ze kan werken met de informatie die ze daaruit krijgt. Daarnaast is het een heerlijk moment van ontspanning. Het is vanuit die ontspanning dat ik intuïtief de antwoorden vind op de vragen die ik nog niet stelde (Patricia stelt deze) en die me verder op weg helpen.\nAls Patricia met mij aan het werk is geweest ben ik altijd een inzicht rijker, of is er een idee dat spontaan ontstaat. Het is nooit voorspelbaar en juist dat maakt het voor mij zo waardevol. Het bevestigt voor mij dat er op een diepere laag heling mogelijk is, die veel effect kan hebben op mijn dagelijks handelen en mijn persoonlijke relaties."
     },
     {
       title: "Ik voelde me down, voel me nu beter",
@@ -47,11 +47,6 @@ const Ervaringen = () => {
       title: "Spannend maar dat is nergens voor nodig",
       subtitle: "Meisjes 14 jaar",
       text: "Mijn zusje voelde zich niet meer prettig bij ons boven. Ze had het gevoel dat er 'mensen' waren die haar aankeken, ik had dat ook.  Mijn moeder zag even later een stukje over Patricia in de krant en besloot haar te bellen, misschien kon zij ons helpen. Mijn zusje is eerst geweest en zei dat het haar echt had geholpen. Ik ben ook gegaan maar vond het in het begin echt heel spannend maar dat was nergens voor nodig. Patricia is heel aardig en ze voelt met je mee. Het heeft mij echt geholpen, ik heb zelfs nog meer duidelijkheid gekregen dan ik zelf had gedacht."
-    },
-    {
-      title: "Niet durven te voelen",
-      subtitle: "Vrouw 26 jaar",
-      text: "Bij de eerste ontmoeting was me al duidelijk dat ik bij Patricia mezelf niet mooier voor hoef te doen dan ik ben. Zonder enig ongemak kwamen mijn grootste levensvragen en twijfels boven tafel. Het mooie is dat Patricia deze bijzondere vorm van contact combineert met nuchterheid, dat maakt haar heel aangenaam en uitnodigend. Ze hielp me te 'voelen' en er te 'zijn', iets wat me normaal gesproken enorm veel moeite kost omdat vele rationele gedachten dit gevoel verdrukken. Hier heb ik in het dagelijks leven last van; het maakt me onzeker en ik respecteer mijn grenzen onvoldoende. Dankzij Patricia lukt het me beter om te relativeren en om te ervaren wat belangrijk is in mijn leven. Zonder oordeel daagt ze me uit om mijn leven in te vullen zoals bij mij past."
     },
     {
       title: "Geen ervaring met healing, geen 'klachten'",

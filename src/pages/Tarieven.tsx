@@ -107,7 +107,7 @@ const Tarieven = () => {
               <CardContent className="space-y-6">
                 <div>
                   <p className="text-3xl font-bold text-primary mb-2">€ 75,-</p>
-                  <p className="text-muted-foreground">per uur</p>
+                  <p className="text-muted-foreground">per uur (idem voorbereidingsuren)</p>
                 </div>
               </CardContent>
             </Card>

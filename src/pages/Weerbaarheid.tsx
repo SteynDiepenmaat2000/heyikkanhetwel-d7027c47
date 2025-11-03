@@ -57,7 +57,7 @@ const Weerbaarheid = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary">•</span>
-                  <span>bang zijn om er niet bij te horen (vaak geen nee durven te zeggen/geen grenzen durven te stellen of niet hun eigen mening te geven)</span>
+                  <span>bang zijn om er niet bij te horen (vaak geen nee durven te zeggen/geen grenzen durven te stellen of niet hun eigen mening durven te geven)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary">•</span>
@@ -84,7 +84,7 @@ const Weerbaarheid = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary">•</span>
-                  <span>het leren maken van eigen keuzes en het leren gaan van een eigen weg</span>
+                  <span>het leren maken van eigen keuzes en het leren gaan van zijn of haar eigen weg</span>
                 </li>
               </ul>
             </CardContent>
@@ -98,7 +98,7 @@ const Weerbaarheid = () => {
               <h2 className="text-2xl font-semibold text-primary">Groepen in school</h2>
             </div>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Samen actief, op een prettige manier, werken aan een betere sfeer in de klas. Veiligheid en vertrouwen zijn hierbij belangrijke voorwaarden.
+              Samen actief, op een prettige en veilige manier, werken aan een betere sfeer in de klas. Veiligheid en vertrouwen zijn hierbij belangrijke voorwaarden.
             </p>
             <h3 className="font-semibold text-foreground mb-2">Hoe kan dit ingezet worden?</h3>
             <ul className="space-y-2 text-muted-foreground">

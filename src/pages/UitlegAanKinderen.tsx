@@ -32,7 +32,7 @@ const UitlegAanKinderen = () => {
               </div>
               <div className="flex gap-4">
                 <span className="text-2xl font-bold text-primary">2.</span>
-                <p>verbaal. Verbaal betekent dat jij met woorden zegt wat je wilt of wat jij ervan vindt.</p>
+                <p>verbaal. Verbaal betekent dat jij met woorden krachtig zegt wat je wilt of wat jij ervan vindt.</p>
               </div>
             </div>
           </CardContent>
@@ -57,14 +57,6 @@ const UitlegAanKinderen = () => {
             </CardContent>
           </Card>
         </div>
-
-        <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
-          <CardContent className="pt-6">
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Rots&Water wordt in meer dan 14 landen gegeven. Freerk Ykema die het ontwikkeld heeft is in al deze landen geweest en heeft Rots&Water aan meer dan 40.000 leraren geleerd. En daar ben ik er een van. Ik leer zelf ook nog steeds van de lessen. Ik leer en durf steeds beter te zeggen wat ik echt vind en voel.
-            </p>
-          </CardContent>
-        </Card>
 
         <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50 bg-accent/20">
           <CardContent className="pt-6">
@@ -91,7 +83,7 @@ const UitlegAanKinderen = () => {
         <Card className="mb-6 shadow-[var(--shadow-card)] border-border/50">
           <CardContent className="pt-6">
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Natuurlijk overleggen we met jou en je ouder(s) wat fijn en goed voelt. Ik kan ook helpen zonder dat jullie erbij zijn. Dit noemen we ook wel een afstemming op afstand.
+              Natuurlijk zal ik dit eerst met u als ouder(s)/verzorger(s) en met uw kind overleggen wat fijn en goed voelt. Ik kan ook helpen zonder dat jullie erbij zijn. Dit noemen we ook wel een afstemming op afstand.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
               Als je vaak (buik)pijn hebt en niet goed weet waar dat vandaan komt, kan ik of kunnen we samen voelen waar dat vandaan komt en waar het mee te maken heeft.
@@ -115,7 +107,7 @@ const UitlegAanKinderen = () => {
               Ook kan jouw mama of papa je helpen door een kindertolksessie bij mij te volgen? Ze helpen jou daarbij en helpen dan ook zichzelf. Hoe mooi zou dat zijn!!
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mt-4">
-              Als jij nl. ergens mee zit of moeilijk vindt en mama en/of papa vinden dat vervelend voor jou, kan ik door mama en/of papa vragen te stellen erachter komen hoe dat nou precies komt.
+              Als jij nl. ergens mee zit of moeilijk vindt en mama en/of papa vinden dat vervelend voor jou, kan ik door mama en/of papa vragen te stellen erachter komen, hoe dat nou precies komt.
             </p>
           </CardContent>
         </Card>

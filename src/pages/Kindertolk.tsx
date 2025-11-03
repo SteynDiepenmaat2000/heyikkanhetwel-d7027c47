@@ -49,7 +49,7 @@ const Kindertolk = () => {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-primary">•</span>
-                <span>Jij ergert je aan een van je kinderen en je het maar niet los kan laten of er zelf maar niet achter komen waarom je dat zo sterk voelt.</span>
+                <span>jij ergert je aan een van je kinderen en je het maar niet los kan laten of er zelf maar niet achter komen waarom je dat zo sterk voelt.</span>
               </li>
             </ul>
 
@@ -92,7 +92,7 @@ const Kindertolk = () => {
             
             <p className="text-muted-foreground mb-4">We kijken samen naar de stukjes die weerspiegelt worden en nemen de tijd om stil te staan bij het gevoel dat dit jou geeft. Uiteraard kijken we ook hoe je handen en voeten kunt geven aan dat wat je ontdekt hebt over jezelf. We kijken wat nodig is voor jou en of er nog iets nodig is voor jouw kind.</p>
 
-            <p className="text-muted-foreground">Tijdens de 2e afspraak kijken we opnieuw naar het gedrag of de gezondheid van jouw kind. We staan stil bij de veranderingen, zowel bij jouw kind als bij jezelf. Als die veranderingen bevredigend zijn, dan sluiten we de sessie af.</p>
+            <p className="text-muted-foreground">Tijdens de 2e afspraak kijken we opnieuw naar het gedrag of de gezondheid van jouw kind. We staan stil bij de veranderingen, zowel bij jouw kind als bij jezelf. Als die veranderingen aan jullie verwachtingen voldoen, dan sluiten we de sessie af.</p>
           </CardContent>
         </Card>
 
