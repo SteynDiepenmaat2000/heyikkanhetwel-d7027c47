@@ -85,7 +85,7 @@ const Contact = () => {
         </Card>
 
         <div className="mt-4 text-center">
-          <p className="text-lg text-muted-foreground italic">Lieve mensen,</p>
+          <p className="text-lg text-muted-foreground italic">Lief mens,</p>
           <p className="text-lg text-muted-foreground mt-4">
             Succes bij jou/jullie proces bij mij of bij iemand anders. Belangrijk is dat het voor jou/jullie goed voelt.
           </p>
