@@ -4,6 +4,7 @@ import patriciaFoto from "@/assets/patricia-foto.jpg";
 import servicesSpiritual from "@/assets/services-spiritual-real.jpg";
 import servicesKindertolk from "@/assets/services-kindertolk-real.jpg";
 import servicesWeerbaarheid from "@/assets/services-weerbaarheid-real.jpg";
+import contactFoto from "@/assets/contact-foto.jpg";
 
 const Home = () => {
   // Scroll to top when clicking service cards
@@ -83,7 +84,11 @@ const Home = () => {
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-card">
             <CardContent className="pt-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Als jij je zorgen maakt om het gedrag van jouw kind of als je je ergert aan het gedrag kun je via de methode (Kindertolk/Presentchild) naar je eigen proces kijken.
+                Als jij je zorgen maakt om het gedrag van jouw kind of als je je ergert aan het gedrag kun je via de methode{" "}
+                <Link to="/kindertolk" className="text-primary hover:underline font-semibold">
+                  (Kindertolk/Presentchild)
+                </Link>{" "}
+                naar je eigen proces kijken.
               </p>
             </CardContent>
           </Card>
@@ -98,7 +103,7 @@ const Home = () => {
           </h2>
           <div className="text-center max-w-3xl mx-auto mb-4">
             <p className="text-xl text-muted-foreground leading-relaxed mb-4">
-              Ik wil jou als kind en indirect jullie als ouder(s)/verzorger(s) graag helpen, zodat jij weer een fijn gevoel krijgt. Je voelt/leert dat je niet meer bang, onzeker etc. hoeft te zijn of buikpijn hoeft te hebben. We gaan er samen achter komen waar jouw gevoel of probleem vandaan komt. Ik leer je allerlei manieren om hiermee om te gaan en jij bepaalt wat je uiteindelijk wel en niet wilt.
+              Ik wil jou als kind en indirect jullie als ouder(s)/verzorger(s) graag helpen, zodat jij weer een fijn gevoel krijgt. Je voelt/leert dat je niet meer bang, onzeker etc. hoeft te zijn of buikpijn hoeft te hebben. We gaan er samen achter komen waar jouw gevoel of probleem vandaan komt. Ik geef jullie handvatten om zelf mee aan de slag te gaan.
             </p>
             <p className="text-2xl font-bold text-primary">
               HEY……… en OOK JIJ KUNT HET samen met een beetje hulp van mij.
@@ -157,18 +162,29 @@ const Home = () => {
                 <div className="aspect-[4/3] overflow-hidden">
                   <img 
                     src={servicesWeerbaarheid} 
-                    alt="Weerbaarheid" 
+                    alt="Weerbaarheid & Sociale vaardigheden school" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <CardContent className="pt-6">
                   <h3 className="text-2xl font-semibold text-center text-primary group-hover:text-accent transition-colors">
-                    Weerbaarheid
+                    Weerbaarheid & Sociale vaardigheden school
                   </h3>
                 </CardContent>
               </Card>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Visitekaartje Section */}
+      <section className="py-8 px-4">
+        <div className="container mx-auto max-w-2xl">
+          <img 
+            src={contactFoto} 
+            alt="Visitekaartje Patricia Kroeze - Spirituele Kindercoach" 
+            className="w-full rounded-lg shadow-[var(--shadow-card)]"
+          />
         </div>
       </section>
     </main>
