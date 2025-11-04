@@ -9,7 +9,7 @@ import contactFoto from "@/assets/contact-foto.jpg";
 const Home = () => {
   // Scroll to top when clicking service cards
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -19,28 +19,31 @@ const Home = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-6 items-center">
             <div>
-              <img 
-                src={patriciaFoto} 
-                alt="Patricia Kroeze" 
-                className="rounded-lg shadow-[var(--shadow-card)] w-full"
-              />
+              <img src={patriciaFoto} alt="Patricia Kroeze" className="rounded-lg shadow-[var(--shadow-card)] w-full" />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-primary">
-                Ik ben Patricia Kroeze en begeleid:
-              </h2>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-primary">Ik ben Patricia Kroeze en begeleid:</h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <div className="flex gap-4">
                   <span className="text-2xl font-bold text-primary">1.</span>
-                  <p>Kinderen en (jong)volwassenen die zich aanpassen aan anderen en zichzelf daardoor verliezen. Ik laat ze weer trouw worden aan wie ze werkelijk zijn!</p>
+                  <p>
+                    Kinderen en (jong)volwassenen die zich aanpassen aan anderen en zichzelf daardoor verliezen. Ik laat
+                    ze weer trouw worden aan wie ze werkelijk zijn!
+                  </p>
                 </div>
                 <div className="flex gap-4">
                   <span className="text-2xl font-bold text-primary">2.</span>
-                  <p>Ouders die hun, vaak hoog gevoelige kind (HSP= High Sensitive Person), zien worstelen. Ik help ze bij het (terug)vinden van rust.</p>
+                  <p>
+                    Ouders die hun, vaak hoog gevoelige kind (HSP= High Sensitive Person), zien worstelen. Ik help ze
+                    bij het (terug)vinden van rust.
+                  </p>
                 </div>
                 <div className="flex gap-4">
                   <span className="text-2xl font-bold text-primary">3.</span>
-                  <p>Kinderen en heb de gave in- en mee te voelen wat bij hun past. Ik werk met humor en vanuit rust naar hun eigen kracht.</p>
+                  <p>
+                    Kinderen en heb de gave in- en mee te voelen wat bij hun past. Ik werk met humor en vanuit rust naar
+                    hun eigen kracht.
+                  </p>
                 </div>
               </div>
             </div>
@@ -59,7 +62,10 @@ const Home = () => {
               <ul className="space-y-3 text-lg text-muted-foreground">
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">•</span>
-                  <span>niet voor jezelf op durven te komen: durven te doen of zeggen wat je eigenlijk wilt, rustiger te leren reageren, hoe je dat kan doen als je bijvoorbeeld heel boos bent etc.</span>
+                  <span>
+                    niet voor jezelf op durven te komen: durven te doen of zeggen wat je eigenlijk wilt, rustiger te
+                    leren reageren, hoe je dat kan doen als je bijvoorbeeld heel boos bent etc.
+                  </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">•</span>
@@ -67,7 +73,12 @@ const Home = () => {
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">•</span>
-                  <span>minder bang te zijn voor: nieuwe situaties, een raar gevoel als je een ruimte binnen komt, "enge" beelden die je vaak ziet (kan je ook in je hoofd zien) en vaak voordat je gaat slapen, dingen zien die er niet zijn, mensen die je ziet staan in je slaapkamer of misschien ook wel als je een ander huis binnen komt</span>
+                  <span>
+                    minder bang te zijn voor: nieuwe situaties, een raar gevoel als je een ruimte binnen komt, "enge"
+                    beelden die je vaak ziet (kan je ook in je hoofd zien) en vaak voordat je gaat slapen, dingen zien
+                    die er niet zijn, mensen die je ziet staan in je slaapkamer of misschien ook wel als je een ander
+                    huis binnen komt
+                  </span>
                 </li>
               </ul>
             </CardContent>
@@ -84,7 +95,8 @@ const Home = () => {
           <Card className="shadow-[var(--shadow-card)] border-border/50 bg-card">
             <CardContent className="pt-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Als jij je zorgen maakt om het gedrag van jouw kind of als je je ergert aan het gedrag kun je via de methode{" "}
+                Als jij je zorgen maakt om het gedrag van jouw kind of als je je ergert aan het gedrag kun je via de
+                methode{" "}
                 <Link to="/kindertolk" className="text-primary hover:underline font-semibold">
                   (Kindertolk/Presentchild)
                 </Link>{" "}
@@ -98,12 +110,13 @@ const Home = () => {
       {/* Mijn Doel Section */}
       <section className="py-8 px-4">
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-primary">
-            Mijn doel
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-primary">Mijn doel</h2>
           <div className="text-center max-w-3xl mx-auto mb-4">
             <p className="text-xl text-muted-foreground leading-relaxed mb-4">
-              Ik wil jou als kind en indirect jullie als ouder(s)/verzorger(s) graag helpen, zodat jij weer een fijn gevoel krijgt. Je voelt/leert dat je niet meer bang, onzeker etc. hoeft te zijn of buikpijn hoeft te hebben. We gaan er samen achter komen waar jouw gevoel of probleem vandaan komt. Ik geef jullie handvatten om zelf mee aan de slag te gaan.
+              Ik wil jou als kind en indirect jullie als ouder(s)/verzorger(s) graag helpen, zodat jij weer een fijn
+              gevoel krijgt. Je voelt/leert dat je niet meer bang, onzeker etc. hoeft te zijn of buikpijn hoeft te
+              hebben. We gaan er samen achter komen waar jouw gevoel of probleem vandaan komt. Ik geef jullie handvatten
+              om er zelf mee aan de slag te gaan.
             </p>
             <p className="text-2xl font-bold text-primary">
               HEY……… en OOK JIJ KUNT HET samen met een beetje hulp van mij.
@@ -115,20 +128,18 @@ const Home = () => {
       {/* Services Section */}
       <section className="py-8 px-4 bg-accent/20">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3 text-center text-primary">
-            Diensten
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-3 text-center text-primary">Diensten</h2>
           <p className="text-xl text-center text-muted-foreground mb-6">
             Als je over bovenstaande graag uitgebreide informatie wilt, klik dan op onderstaande foto's!
           </p>
-          
+
           <div className="grid md:grid-cols-3 gap-6">
             <Link to="/spiritueel-kindercoach" onClick={scrollToTop} className="group">
               <Card className="overflow-hidden shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300 h-full">
                 <div className="aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={servicesSpiritual} 
-                    alt="Spiritueel Kindercoach" 
+                  <img
+                    src={servicesSpiritual}
+                    alt="Spiritueel Kindercoach"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
@@ -143,9 +154,9 @@ const Home = () => {
             <Link to="/kindertolk" onClick={scrollToTop} className="group">
               <Card className="overflow-hidden shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300 h-full">
                 <div className="aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={servicesKindertolk} 
-                    alt="Kindertolk" 
+                  <img
+                    src={servicesKindertolk}
+                    alt="Kindertolk"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
@@ -160,9 +171,9 @@ const Home = () => {
             <Link to="/weerbaarheid" onClick={scrollToTop} className="group">
               <Card className="overflow-hidden shadow-[var(--shadow-card)] border-border/50 hover:shadow-[var(--shadow-card)] transition-all duration-300 h-full">
                 <div className="aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={servicesWeerbaarheid} 
-                    alt="Weerbaarheid & Sociale vaardigheden school" 
+                  <img
+                    src={servicesWeerbaarheid}
+                    alt="Weerbaarheid & Sociale vaardigheden school"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
@@ -180,9 +191,9 @@ const Home = () => {
       {/* Visitekaartje Section */}
       <section className="py-8 px-4">
         <div className="container mx-auto max-w-2xl">
-          <img 
-            src={contactFoto} 
-            alt="Visitekaartje Patricia Kroeze - Spirituele Kindercoach" 
+          <img
+            src={contactFoto}
+            alt="Visitekaartje Patricia Kroeze - Spirituele Kindercoach"
             className="w-full rounded-lg shadow-[var(--shadow-card)]"
           />
         </div>
