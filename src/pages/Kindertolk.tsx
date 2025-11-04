@@ -24,11 +24,11 @@ const Kindertolk = () => {
               </p>
             </CardContent>
           </Card>
-          <div>
+          <div className="flex items-start">
             <img 
               src={kindertolkFoto1} 
               alt="Kindertolk" 
-              className="rounded-lg shadow-[var(--shadow-card)] w-full"
+              className="rounded-lg shadow-[var(--shadow-card)] w-full max-h-[400px] object-cover"
             />
           </div>
         </div>
