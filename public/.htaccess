@@ -1,12 +1,26 @@
-# Set correct MIME types for JavaScript modules and other assets
+# Force correct MIME types for JavaScript modules and other assets
 <IfModule mod_mime.c>
-  AddType text/javascript .js
-  AddType text/javascript .mjs
+  AddType text/javascript .js .mjs
   AddType text/css .css
   AddType image/svg+xml .svg
   AddType application/json .json
   AddType application/wasm .wasm
 </IfModule>
+
+# Additional header configuration for JavaScript modules
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|mjs)$">
+    Header set Content-Type "text/javascript"
+  </FilesMatch>
+  <FilesMatch "\.css$">
+    Header set Content-Type "text/css"
+  </FilesMatch>
+</IfModule>
+
+# Ensure mod_mime settings override other configurations
+<Files ~ "\.(js|mjs)$">
+  ForceType text/javascript
+</Files>
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
